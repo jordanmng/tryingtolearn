@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WTA Top 20 · Head-to-Head Network</title>
+<style>
+/* ── Reset ─────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+
+body {
+  background: #0a0a1a;
+  color: #e2e0f0;
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────────── */
+#header {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: linear-gradient(135deg, #0d0028 0%, #1b0050 35%, #2e1272 65%, #180040 100%);
+  border-bottom: 1px solid rgba(160, 80, 255, 0.25);
+  box-shadow: 0 2px 24px rgba(100, 0, 220, 0.35);
+  position: relative;
+  z-index: 20;
+  flex-shrink: 0;
+}
+
+#header h1 {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  background: linear-gradient(90deg, #f0ecff 0%, #c8a8ff 55%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: nowrap;
+}
+
+#header h1 span {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+/* ── Legend ─────────────────────────────────────────────────────────────────── */
+#legend {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.leg-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.65);
+  white-space: nowrap;
+}
+.leg-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Graph container ────────────────────────────────────────────────────────── */
+#container {
+  width: 100vw;
+  height: calc(100vh - 54px);
+  position: relative;
+}
+svg#graph {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+}
+svg#graph:active { cursor: grabbing; }
+
+/* ── SVG element classes ────────────────────────────────────────────────────── */
+.link {
+  fill: none;
+  transition: opacity 0.18s ease, stroke-opacity 0.18s ease;
+}
+.node-group { cursor: pointer; }
+.node-circle {
+  transition: filter 0.15s ease;
+}
+.node-group:hover .node-circle {
+  filter: brightness(1.25) drop-shadow(0 0 6px currentColor);
+}
+.node-label {
+  pointer-events: none;
+  user-select: none;
+  paint-order: stroke fill;
+  stroke: #0a0a1a;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.rank-text {
+  pointer-events: none;
+  user-select: none;
+  paint-order: stroke fill;
+  stroke: rgba(0,0,0,0.5);
+  stroke-width: 1px;
+}
+
+/* ── Tooltip ────────────────────────────────────────────────────────────────── */
+#tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 200;
+  min-width: 175px;
+  max-width: 230px;
+  background: rgba(8, 6, 24, 0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(160, 100, 255, 0.22);
+  border-radius: 13px;
+  padding: 11px 14px;
+  font-size: 12px;
+  line-height: 1.55;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.05);
+  display: none;
+  transition: opacity 0.1s;
+}
+.tt-name  { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 3px; }
+.tt-meta  { color: rgba(255,255,255,0.55); font-size: 11px; margin-bottom: 7px; }
+.tt-grid  { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 8px; margin-bottom: 5px; }
+.tt-kv    { font-size: 11px; color: rgba(255,255,255,0.6); }
+.tt-kv b  { color: #c4b5fd; font-weight: 700; }
+.tt-hint  { font-size: 10px; color: rgba(255,255,255,0.3); font-style: italic; margin-top: 5px; }
+.tt-edge-title { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.tt-edge-body  { font-size: 11px; color: rgba(255,255,255,0.6); }
+.tt-edge-body b { color: #e2e0f0; }
+
+/* ── Detail panel ───────────────────────────────────────────────────────────── */
+#detail-panel {
+  position: fixed;
+  top: 66px;
+  right: 14px;
+  width: 252px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: rgba(8, 6, 24, 0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(160, 100, 255, 0.2);
+  border-radius: 16px;
+  padding: 14px;
+  z-index: 100;
+  display: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.55);
+}
+#detail-panel::-webkit-scrollbar { width: 3px; }
+#detail-panel::-webkit-scrollbar-track { background: transparent; }
+#detail-panel::-webkit-scrollbar-thumb { background: rgba(160,100,255,0.3); border-radius: 2px; }
+
+.dp-name   { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+.dp-meta   { font-size: 11px; color: rgba(255,255,255,0.45); margin-bottom: 10px; }
+.dp-header { font-size: 10px; font-weight: 600; text-transform: uppercase;
+             letter-spacing: 0.8px; color: rgba(255,255,255,0.3); margin-bottom: 6px; }
+.dp-rows   { display: flex; flex-direction: column; gap: 4px; }
+.dp-row    {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 5px 8px; border-radius: 7px;
+  background: rgba(255,255,255,0.04);
+  border-left: 3px solid transparent;
+  font-size: 11px;
+}
+.dp-opp    { color: rgba(255,255,255,0.78); font-weight: 500; flex: 1;
+             white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dp-score  { font-weight: 700; font-size: 12px; margin-left: 8px; flex-shrink: 0; }
+
+/* ── Controls ───────────────────────────────────────────────────────────────── */
+#controls {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 7px;
+  z-index: 100;
+}
+.btn {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.11);
+  color: rgba(255,255,255,0.82);
+  padding: 7px 15px;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: inherit;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background 0.14s, border-color 0.14s, color 0.14s;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
+}
+.btn:hover {
+  background: rgba(255,255,255,0.13);
+  border-color: rgba(160,100,255,0.45);
+  color: #fff;
+}
+.btn.active {
+  background: rgba(100, 40, 200, 0.32);
+  border-color: rgba(180,120,255,0.65);
+  color: #d8b4fe;
+}
+
+/* ── No-data overlay ────────────────────────────────────────────────────────── */
+#no-data {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  pointer-events: none;
+}
+#no-data h2 { font-size: 22px; color: rgba(255,255,255,0.55); }
+#no-data p  { font-size: 14px; color: rgba(255,255,255,0.35); line-height: 1.6; max-width: 400px; }
+#no-data code {
+  background: rgba(255,255,255,0.08); padding: 2px 7px;
+  border-radius: 5px; font-family: monospace; font-size: 13px; color: #c4b5fd;
+}
+
+/* ── Cycles panel ──────────────────────────────────────────────────────────── */
+#cycles-panel {
+  position: fixed;
+  top: 66px;
+  left: 14px;
+  width: 320px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: rgba(8, 6, 24, 0.92);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(160, 100, 255, 0.2);
+  border-radius: 16px;
+  padding: 16px;
+  z-index: 100;
+  display: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.55);
+}
+#cycles-panel::-webkit-scrollbar { width: 3px; }
+#cycles-panel::-webkit-scrollbar-track { background: transparent; }
+#cycles-panel::-webkit-scrollbar-thumb { background: rgba(160,100,255,0.3); border-radius: 2px; }
+
+.cy-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.cy-subtitle {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 14px;
+}
+.cy-count {
+  color: #c4b5fd;
+  font-weight: 700;
+}
+.cy-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.cy-card:hover {
+  background: rgba(100, 40, 200, 0.15);
+  border-color: rgba(160, 100, 255, 0.3);
+}
+.cy-card.cy-active {
+  background: rgba(100, 40, 200, 0.22);
+  border-color: rgba(180, 120, 255, 0.5);
+}
+.cy-chain {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.cy-player {
+  font-weight: 600;
+  color: rgba(255,255,255,0.88);
+}
+.cy-arrow {
+  color: #4ade80;
+  font-size: 11px;
+  font-weight: 700;
+}
+.cy-score {
+  font-size: 10px;
+  color: rgba(255,255,255,0.4);
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────────────────────── -->
+<div id="header">
+  <h1>WTA Top 20 <span>Head-to-Head Network</span></h1>
+  <div id="legend"></div>
+</div>
+
+<!-- ── Graph ──────────────────────────────────────────────────────────────── -->
+<div id="container">
+  <svg id="graph"></svg>
+  <div id="no-data" style="display:none">
+    <h2>No data loaded</h2>
+    <p>Run <code>python3 fetch_wta_data.py</code> then <code>python3 build.py</code> to generate the graph.</p>
+  </div>
+</div>
+
+<!-- ── Tooltip ────────────────────────────────────────────────────────────── -->
+<div id="tooltip"></div>
+
+<!-- ── Detail panel ───────────────────────────────────────────────────────── -->
+<div id="detail-panel"></div>
+
+<!-- ── Cycles panel ──────────────────────────────────────────────────────── -->
+<div id="cycles-panel"></div>
+
+<!-- ── Controls ───────────────────────────────────────────────────────────── -->
+<div id="controls">
+  <button class="btn" id="btn-reset">Reset View</button>
+  <button class="btn" id="btn-labels">Toggle Labels</button>
+  <button class="btn" id="btn-top5">Highlight Top 5</button>
+  <button class="btn" id="btn-cycles">Cycles</button>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+// ═══════════════════════════════════════════════════════════════════════════════
+// DATA — build.py replaces the null below with the full JSON object
+// ═══════════════════════════════════════════════════════════════════════════════
+const RAW_DATA = null /* WTA_DATA_PLACEHOLDER */;
+
+// ── Region config ──────────────────────────────────────────────────────────────
+const REGION_COLORS = {
+  'USA':        '#e85454',
+  'Europe':     '#4a9fe8',
+  'Russia/CIS': '#a855f7',
+  'Asia':       '#f97316',
+  'Americas':   '#22c55e',
+};
+
+const REGION_LABEL = {
+  'USA':        'USA',
+  'Europe':     'Europe',
+  'Russia/CIS': 'Russia / CIS',
+  'Asia':       'Asia',
+  'Americas':   'Americas',
+};
+
+function getRegion(cc) {
+  if (!cc) return 'Europe';
+  const c = cc.toUpperCase();
+  if (c === 'USA') return 'USA';
+  if (['RUS','BLR','KAZ','UZB','GEO','AZE','ARM','MDA'].includes(c)) return 'Russia/CIS';
+  if (['CHN','JPN','KOR','THA','IND','TPE','HKG','SGP','MAS'].includes(c)) return 'Asia';
+  if (['BRA','ARG','COL','VEN','ECU','PER','CHL','CAN','MEX','BOL','URU','PAR'].includes(c)) return 'Americas';
+  return 'Europe';
+}
+
+function nodeRadius(rank) {
+  return 10 + (21 - rank) * 1.35;    // rank 1 → ~37px, rank 20 → ~11px
+}
+
+function edgeStrokeWidth(margin) {
+  if (margin === 0) return 0.6;
+  return Math.min(8.5, 1.1 + Math.log2(margin + 1) * 2.1);
+}
+
+// ── Legend ─────────────────────────────────────────────────────────────────────
+(function buildLegend() {
+  const el = document.getElementById('legend');
+  Object.entries(REGION_LABEL).forEach(([key, label]) => {
+    const item = document.createElement('div');
+    item.className = 'leg-item';
+    item.innerHTML = `<div class="leg-dot" style="background:${REGION_COLORS[key]}"></div>${label}`;
+    el.appendChild(item);
+  });
+})();
+
+// ── Early exit if no data ──────────────────────────────────────────────────────
+if (!RAW_DATA) {
+  document.getElementById('no-data').style.display = 'flex';
+} else {
+  initGraph(RAW_DATA);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// GRAPH
+// ═══════════════════════════════════════════════════════════════════════════════
+function initGraph(raw) {
+
+  // ── Data processing ──────────────────────────────────────────────────────────
+  const playerById = {};
+
+  const nodes = raw.players.map(p => {
+    const region = getRegion(p.country);
+    const node = {
+      id:      String(p.id),
+      rank:    p.rank,
+      name:    p.name,
+      country: p.country || '?',
+      points:  p.points  || 0,
+      titles:  p.titles  || 0,
+      region,
+      color:   REGION_COLORS[region],
+      radius:  nodeRadius(p.rank),
+    };
+    playerById[node.id] = node;
+    return node;
+  });
+
+  const links = [];
+  for (const [key, h2h] of Object.entries(raw.h2h)) {
+    const p1 = playerById[String(h2h.player1_id)];
+    const p2 = playerById[String(h2h.player2_id)];
+    if (!p1 || !p2) continue;
+    const total = (h2h.player1_wins || 0) + (h2h.player2_wins || 0);
+    if (total === 0) continue;
+
+    const margin = Math.abs((h2h.player1_wins || 0) - (h2h.player2_wins || 0));
+    const p1dom  = (h2h.player1_wins || 0) >= (h2h.player2_wins || 0);
+    const dom    = p1dom ? p1 : p2;
+    const sub    = p1dom ? p2 : p1;
+    const dw     = p1dom ? (h2h.player1_wins || 0) : (h2h.player2_wins || 0);
+    const sw2    = p1dom ? (h2h.player2_wins || 0) : (h2h.player1_wins || 0);
+
+    // Last match (most recent by date)
+    const matches = (h2h.matches || []).slice().sort(
+      (a, b) => (b.date || '').localeCompare(a.date || '')
+    );
+    const last = matches[0] || null;
+
+    links.push({
+      id:       key,
+      source:   dom.id,
+      target:   sub.id,
+      margin,
+      total,
+      dw, sw: sw2,
+      isEven:   margin === 0,
+      sw_px:    edgeStrokeWidth(margin),
+      domNode:  dom,
+      subNode:  sub,
+      last,
+      matches,
+    });
+  }
+
+  // ── SVG setup ────────────────────────────────────────────────────────────────
+  const container = document.getElementById('container');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  const svg = d3.select('#graph')
+    .attr('width',  W)
+    .attr('height', H);
+
+  // Zoom / pan
+  const root = svg.append('g').attr('class', 'root');
+
+  const zoom = d3.zoom()
+    .scaleExtent([0.25, 5])
+    .on('zoom', e => root.attr('transform', e.transform));
+
+  svg.call(zoom);
+
+  // Click on SVG background → unlock node
+  svg.on('click', function(e) {
+    if (e.target === this) {
+      lockNode(null);
+    }
+  });
+
+  // ── Defs: arrowhead markers (one per link, sized by margin) ──────────────────
+  const defs = svg.append('defs');
+
+  function arrowSize(margin) {
+    if (margin === 0) return 0;
+    return Math.min(14, 4 + margin * 1.2);
+  }
+
+  // ── Create per-link arrowhead markers ─────────────────────────────────────────
+  links.forEach(l => {
+    if (l.isEven) return;
+    const sz = arrowSize(l.margin);
+    const id = 'arr-' + l.id.replace(/[^a-zA-Z0-9]/g, '_');
+    l._markerId = id;
+    l._arrowSize = sz;
+    defs.append('marker')
+      .attr('id', id)
+      .attr('viewBox', '0 0 10 10')
+      .attr('refX', 9)
+      .attr('refY', 5)
+      .attr('markerWidth',  sz)
+      .attr('markerHeight', sz)
+      .attr('orient', 'auto')
+      .append('path')
+        .attr('d',    'M 0 1.5 L 8.5 5 L 0 8.5 Z')
+        .attr('fill', l.domNode.color)
+        .attr('fill-opacity', 0.88);
+  });
+
+  // ── Force simulation ─────────────────────────────────────────────────────────
+  const simulation = d3.forceSimulation(nodes)
+    .force('link',      d3.forceLink(links).id(d => d.id).distance(420).strength(0.2))
+    .force('charge',    d3.forceManyBody().strength(-4500).distanceMax(1400))
+    .force('center',    d3.forceCenter(W / 2, H / 2).strength(0.05))
+    .force('collision', d3.forceCollide().radius(d => d.radius + 50).strength(0.85))
+    .alphaDecay(0.018)
+    .velocityDecay(0.38);
+
+  // ── Draw links ───────────────────────────────────────────────────────────────
+  const linkLayer = root.append('g').attr('class', 'link-layer');
+  const linkSels = linkLayer.selectAll('path')
+    .data(links)
+    .join('path')
+    .attr('class', 'link')
+    .attr('stroke',         d => d.domNode.color)
+    .attr('stroke-width',   d => d.sw_px)
+    .attr('stroke-opacity', d => d.isEven ? 0.28 : 0.52)
+    .attr('marker-end', d =>
+      d.isEven ? null : `url(#${d._markerId})`
+    )
+    .on('mouseenter', onLinkEnter)
+    .on('mousemove',  onLinkMove)
+    .on('mouseleave', onLinkLeave);
+
+  // ── Draw nodes ───────────────────────────────────────────────────────────────
+  const nodeLayer = root.append('g').attr('class', 'node-layer');
+  const nodeGrps = nodeLayer.selectAll('g')
+    .data(nodes)
+    .join('g')
+    .attr('class', 'node-group')
+    .call(
+      d3.drag()
+        .on('start', function(e, d) {
+          if (!e.active) simulation.alphaTarget(0.25).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on('drag', function(e, d) { d.fx = e.x; d.fy = e.y; })
+        .on('end', function(e, d) {
+          if (!e.active) simulation.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        })
+    )
+    .on('mouseenter', onNodeEnter)
+    .on('mousemove',  onNodeMove)
+    .on('mouseleave', onNodeLeave)
+    .on('click',      onNodeClick);
+
+  // Glow ring (visible on hover via CSS filter)
+  nodeGrps.append('circle')
+    .attr('r',            d => d.radius + 4)
+    .attr('fill',         'none')
+    .attr('stroke',       d => d.color)
+    .attr('stroke-width', 1)
+    .attr('stroke-opacity', 0)
+    .attr('class',        'node-ring');
+
+  // Main circle
+  nodeGrps.append('circle')
+    .attr('class',           'node-circle')
+    .attr('r',               d => d.radius)
+    .attr('fill',            d => d.color)
+    .attr('fill-opacity',    0.82)
+    .attr('stroke',          d => d3.color(d.color).brighter(0.9))
+    .attr('stroke-width',    1.5)
+    .attr('stroke-opacity',  0.7);
+
+  // Rank number inside circle
+  nodeGrps.append('text')
+    .attr('class',       'rank-text')
+    .attr('y',           d => d.rank <= 5 ? -d.radius * 0.18 : 0)
+    .attr('text-anchor', 'middle')
+    .attr('dominant-baseline', 'middle')
+    .attr('fill',        'rgba(255,255,255,0.75)')
+    .attr('font-size',   d => Math.max(7, d.radius * 0.34))
+    .attr('font-weight', '800')
+    .text(d => d.rank);
+
+  // Player last name label below circle
+  const labelSels = nodeGrps.append('text')
+    .attr('class',       'node-label')
+    .attr('y',           d => d.radius + 13)
+    .attr('text-anchor', 'middle')
+    .attr('dominant-baseline', 'auto')
+    .attr('fill',        'rgba(255,255,255,0.88)')
+    .attr('font-size',   11)
+    .text(d => {
+      const parts = d.name.trim().split(/\s+/);
+      return parts[parts.length - 1].toUpperCase();
+    });
+
+  // ── Simulation tick ──────────────────────────────────────────────────────────
+  simulation.on('tick', () => {
+    linkSels.attr('d', arcPath);
+    nodeGrps.attr('transform', d => `translate(${d.x ?? 0},${d.y ?? 0})`);
+  });
+
+  // ── Arc path function ────────────────────────────────────────────────────────
+  function arcPath(d) {
+    const s  = d.source, t = d.target;
+    const sx = s.x ?? 0, sy = s.y ?? 0;
+    const tx = t.x ?? 0, ty = t.y ?? 0;
+    const dx = tx - sx, dy = ty - sy;
+    const len = Math.hypot(dx, dy);
+    if (len < 1) return '';
+
+    // Control point: perpendicular offset from midpoint
+    const f   = 0.20;
+    const mx  = (sx + tx) / 2 + (-dy / len) * len * f;
+    const my  = (sy + ty) / 2 + ( dx / len) * len * f;
+
+    // Tangent angles
+    const ts = Math.atan2(my - sy, mx - sx);
+    const tt = Math.atan2(ty - my, tx - mx);
+
+    const sr = s.radius || 15;
+    const tr = t.radius || 15;
+    const ap = d.isEven ? tr : tr + (d._arrowSize || 7);   // arrow pad
+
+    return (
+      `M${sx + Math.cos(ts) * sr},${sy + Math.sin(ts) * sr}` +
+      ` Q${mx},${my}` +
+      ` ${tx - Math.cos(tt) * ap},${ty - Math.sin(tt) * ap}`
+    );
+  }
+
+  // ── Interaction state ────────────────────────────────────────────────────────
+  let _hovered = null;
+  let _locked  = null;
+  let _showLabels = true;
+  let _top5Mode   = false;
+
+  const tooltip     = document.getElementById('tooltip');
+  const detailPanel = document.getElementById('detail-panel');
+
+  function connectedIds(nodeId) {
+    const s = new Set([nodeId]);
+    links.forEach(l => {
+      if (l.source.id === nodeId) s.add(l.target.id);
+      if (l.target.id === nodeId) s.add(l.source.id);
+    });
+    return s;
+  }
+
+  function nodeLinks(nodeId) {
+    return links.filter(l => l.source.id === nodeId || l.target.id === nodeId);
+  }
+
+  function refreshOpacity() {
+    const active = _locked || _hovered;
+
+    if (_top5Mode && !active) {
+      nodeGrps.attr('opacity', d => d.rank <= 5 ? 1 : 0.18);
+      linkSels.attr('opacity', d =>
+        d.source.rank <= 5 && d.target.rank <= 5 ? 1 : 0.04
+      );
+      return;
+    }
+
+    if (!active) {
+      nodeGrps.attr('opacity', 1);
+      linkSels.attr('opacity', 1);
+      return;
+    }
+
+    const ids = connectedIds(active.id);
+    nodeGrps.attr('opacity', d => ids.has(d.id) ? 1 : 0.1);
+    linkSels.attr('opacity', d =>
+      d.source.id === active.id || d.target.id === active.id ? 1 : 0.04
+    );
+  }
+
+  // ── Node hover / click ───────────────────────────────────────────────────────
+  function onNodeEnter(event, d) {
+    if (_locked) return;
+    _hovered = d;
+    refreshOpacity();
+    showNodeTooltip(d, event);
+  }
+
+  function onNodeMove(event, d) {
+    if (_locked && _locked.id !== d.id) return;
+    posTooltip(event);
+  }
+
+  function onNodeLeave(event, d) {
+    if (_locked) return;
+    _hovered = null;
+    refreshOpacity();
+    hideTooltip();
+  }
+
+  function onNodeClick(event, d) {
+    event.stopPropagation();
+    if (_locked && _locked.id === d.id) {
+      lockNode(null);
+    } else {
+      lockNode(d);
+    }
+  }
+
+  function lockNode(d) {
+    _locked = d;
+    _hovered = null;
+    refreshOpacity();
+    if (d) {
+      renderDetailPanel(d);
+      detailPanel.style.display = 'block';
+    } else {
+      detailPanel.style.display = 'none';
+      hideTooltip();
+    }
+  }
+
+  // ── Link hover ───────────────────────────────────────────────────────────────
+  function onLinkEnter(event, d) {
+    d3.select(this).attr('stroke-opacity', 0.9);
+    showEdgeTooltip(d, event);
+  }
+
+  function onLinkMove(event) {
+    posTooltip(event);
+  }
+
+  function onLinkLeave(event, d) {
+    d3.select(this).attr('stroke-opacity', d.isEven ? 0.28 : 0.52);
+    if (!_locked && !_hovered) hideTooltip();
+  }
+
+  // ── Tooltips ─────────────────────────────────────────────────────────────────
+  function showNodeTooltip(d, event) {
+    const nl   = nodeLinks(d.id);
+    const wins = nl.filter(l => l.source.id === d.id).length;
+    const loss = nl.filter(l => l.target.id === d.id).length;
+    const even = nl.filter(l => l.isEven).length;
+    const isLocked = _locked && _locked.id === d.id;
+
+    tooltip.innerHTML = `
+      <div class="tt-name">${d.name}</div>
+      <div class="tt-meta">${d.country} &nbsp;·&nbsp; ${REGION_LABEL[d.region]}</div>
+      <div class="tt-grid">
+        <div class="tt-kv">Rank <b>#${d.rank}</b></div>
+        <div class="tt-kv">Points <b>${d.points.toLocaleString()}</b></div>
+        <div class="tt-kv">Leads <b style="color:#4ade80">${wins}</b></div>
+        <div class="tt-kv">Trails <b style="color:#f87171">${loss}</b></div>
+        ${even ? `<div class="tt-kv">Even <b style="color:#facc15">${even}</b></div>` : ''}
+        ${d.titles ? `<div class="tt-kv">Titles <b>${d.titles}</b></div>` : ''}
+      </div>
+      <div class="tt-hint">${isLocked ? '🔒 Click again to unlock' : 'Click to lock focus'}</div>
+    `;
+    posTooltip(event);
+    tooltip.style.display = 'block';
+  }
+
+  function showEdgeTooltip(d, event) {
+    const domName = d.domNode.name;
+    const subName = d.subNode.name;
+    const score   = d.isEven
+      ? `${d.dw} – ${d.sw} (even)`
+      : `<b>${domName}</b> leads ${d.dw} – ${d.sw}`;
+
+    let lastStr = '';
+    if (d.last) {
+      const date  = (d.last.date  || '').slice(0, 7);
+      const tourn = d.last.tournament || '';
+      const round = d.last.round      || '';
+      lastStr = `<br>Last: ${[tourn, round, date].filter(Boolean).join(' · ')}`;
+      if (d.last.score) lastStr += ` (${d.last.score})`;
+    }
+
+    tooltip.innerHTML = `
+      <div class="tt-edge-title">${domName} vs ${subName}</div>
+      <div class="tt-edge-body">${score}${lastStr}</div>
+    `;
+    posTooltip(event);
+    tooltip.style.display = 'block';
+  }
+
+  function posTooltip(event) {
+    const tw = tooltip.offsetWidth  || 200;
+    const th = tooltip.offsetHeight || 100;
+    let x = event.clientX + 16;
+    let y = event.clientY - 12;
+    if (x + tw > window.innerWidth  - 8) x = event.clientX - tw - 16;
+    if (y + th > window.innerHeight - 8) y = event.clientY - th - 12;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top  = y + 'px';
+  }
+
+  function hideTooltip() { tooltip.style.display = 'none'; }
+
+  // ── Detail panel ─────────────────────────────────────────────────────────────
+  function renderDetailPanel(node) {
+    const records = [];
+    for (const [, h2h] of Object.entries(raw.h2h)) {
+      const isP1 = String(h2h.player1_id) === node.id;
+      const isP2 = String(h2h.player2_id) === node.id;
+      if (!isP1 && !isP2) continue;
+
+      const oppId = isP1 ? String(h2h.player2_id) : String(h2h.player1_id);
+      const opp   = playerById[oppId];
+      if (!opp) continue;
+
+      const myW = isP1 ? (h2h.player1_wins || 0) : (h2h.player2_wins || 0);
+      const thW = isP1 ? (h2h.player2_wins || 0) : (h2h.player1_wins || 0);
+      if (myW + thW === 0) continue;
+
+      records.push({ opp, myW, thW });
+    }
+
+    records.sort((a, b) => (b.myW + b.thW) - (a.myW + a.thW));
+
+    const rows = records.map(r => {
+      const c = r.myW > r.thW ? '#4ade80' : r.myW < r.thW ? '#f87171' : '#facc15';
+      return `<div class="dp-row" style="border-left-color:${c}">
+        <span class="dp-opp">${r.opp.name}</span>
+        <span class="dp-score" style="color:${c}">${r.myW}–${r.thW}</span>
+      </div>`;
+    }).join('');
+
+    detailPanel.innerHTML = `
+      <div class="dp-name" style="color:${node.color}">${node.name}</div>
+      <div class="dp-meta">#${node.rank} &nbsp;·&nbsp; ${node.country} &nbsp;·&nbsp; ${node.points.toLocaleString()} pts${node.titles ? ' &nbsp;·&nbsp; ' + node.titles + ' titles' : ''}</div>
+      <div class="dp-header">Head-to-Head record</div>
+      <div class="dp-rows">${rows}</div>
+    `;
+  }
+
+  // ── Controls ─────────────────────────────────────────────────────────────────
+  document.getElementById('btn-reset').addEventListener('click', () => {
+    svg.transition().duration(650).call(zoom.transform, d3.zoomIdentity);
+  });
+
+  document.getElementById('btn-labels').addEventListener('click', function() {
+    _showLabels = !_showLabels;
+    labelSels.attr('display', _showLabels ? null : 'none');
+    this.classList.toggle('active', !_showLabels);
+  });
+
+  document.getElementById('btn-top5').addEventListener('click', function() {
+    _top5Mode = !_top5Mode;
+    _locked  = null;
+    _hovered = null;
+    this.classList.toggle('active', _top5Mode);
+    refreshOpacity();
+    if (_top5Mode) {
+      detailPanel.style.display = 'none';
+      hideTooltip();
+    }
+  });
+
+  // ── Cycles ──────────────────────────────────────────────────────────────────
+  const cyclesPanel = document.getElementById('cycles-panel');
+  let _cyclesMode = false;
+  let _activeCycle = null;
+
+  // Build dominance map: dom[a][b] = { wins, losses } means a leads b
+  const dom = {};
+  for (const [, h2h] of Object.entries(raw.h2h)) {
+    const id1 = String(h2h.player1_id), id2 = String(h2h.player2_id);
+    const w1 = h2h.player1_wins || 0, w2 = h2h.player2_wins || 0;
+    if (w1 + w2 === 0 || w1 === w2) continue;
+    if (w1 > w2) {
+      if (!dom[id1]) dom[id1] = {};
+      dom[id1][id2] = { w: w1, l: w2 };
+    } else {
+      if (!dom[id2]) dom[id2] = {};
+      dom[id2][id1] = { w: w2, l: w1 };
+    }
+  }
+
+  // Find all 3-cycles: A beats B, B beats C, C beats A
+  const cycles = [];
+  const ids = nodes.map(n => n.id);
+  for (let i = 0; i < ids.length; i++) {
+    for (let j = i + 1; j < ids.length; j++) {
+      for (let k = j + 1; k < ids.length; k++) {
+        const tri = [ids[i], ids[j], ids[k]];
+        // Check all 2 possible cycle directions for this triple
+        const perms = [
+          [tri[0], tri[1], tri[2]],
+          [tri[0], tri[2], tri[1]],
+        ];
+        for (const [a, b, c] of perms) {
+          if (dom[a]?.[b] && dom[b]?.[c] && dom[c]?.[a]) {
+            cycles.push({
+              players: [a, b, c],
+              edges: [
+                { from: a, to: b, ...dom[a][b] },
+                { from: b, to: c, ...dom[b][c] },
+                { from: c, to: a, ...dom[c][a] },
+              ],
+            });
+            break; // only one direction per triple can form a cycle
+          }
+        }
+      }
+    }
+  }
+
+  // Sort by combined margin (tightest cycles first)
+  cycles.sort((a, b) => {
+    const marginA = a.edges.reduce((s, e) => s + (e.w - e.l), 0);
+    const marginB = b.edges.reduce((s, e) => s + (e.w - e.l), 0);
+    return marginA - marginB;
+  });
+
+  function renderCyclesPanel() {
+    const cards = cycles.map((cy, idx) => {
+      const parts = cy.edges.map(e => {
+        const p = playerById[e.from];
+        const lastName = p.name.trim().split(/\s+/).pop();
+        return `<span class="cy-player" style="color:${p.color}">${lastName}</span>` +
+               `<span class="cy-arrow">&rarr;</span>` +
+               `<span class="cy-score">${e.w}-${e.l}</span>`;
+      });
+      // Close the loop visually
+      const lastPlayer = playerById[cy.edges[0].from];
+      const closeName = lastPlayer.name.trim().split(/\s+/).pop();
+      parts.push(`<span class="cy-player" style="color:${lastPlayer.color}">${closeName}</span>`);
+
+      return `<div class="cy-card" data-idx="${idx}">
+        <div class="cy-chain">${parts.join(' ')}</div>
+      </div>`;
+    }).join('');
+
+    cyclesPanel.innerHTML = `
+      <div class="cy-title">Cyclical H2H</div>
+      <div class="cy-subtitle"><span class="cy-count">${cycles.length}</span> rock-paper-scissors triangles found</div>
+      ${cards}
+    `;
+
+    cyclesPanel.querySelectorAll('.cy-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const idx = parseInt(card.dataset.idx);
+        if (_activeCycle === idx) {
+          _activeCycle = null;
+          card.classList.remove('cy-active');
+          nodeGrps.attr('opacity', 1);
+          linkSels.attr('opacity', 1);
+        } else {
+          _activeCycle = idx;
+          cyclesPanel.querySelectorAll('.cy-card').forEach(c => c.classList.remove('cy-active'));
+          card.classList.add('cy-active');
+          highlightCycle(cycles[idx]);
+        }
+      });
+    });
+  }
+
+  function highlightCycle(cy) {
+    const cyIds = new Set(cy.players);
+    const cyEdges = new Set();
+    cy.edges.forEach(e => {
+      links.forEach(l => {
+        const sId = l.source.id || l.source;
+        const tId = l.target.id || l.target;
+        if ((sId === e.from && tId === e.to) || (sId === e.to && tId === e.from)) {
+          cyEdges.add(l.id);
+        }
+      });
+    });
+
+    nodeGrps.attr('opacity', d => cyIds.has(d.id) ? 1 : 0.08);
+    linkSels.attr('opacity', d => cyEdges.has(d.id) ? 1 : 0.03);
+  }
+
+  renderCyclesPanel();
+
+  document.getElementById('btn-cycles').addEventListener('click', function() {
+    _cyclesMode = !_cyclesMode;
+    this.classList.toggle('active', _cyclesMode);
+    cyclesPanel.style.display = _cyclesMode ? 'block' : 'none';
+    if (!_cyclesMode) {
+      _activeCycle = null;
+      _locked = null;
+      _hovered = null;
+      nodeGrps.attr('opacity', 1);
+      linkSels.attr('opacity', 1);
+      detailPanel.style.display = 'none';
+    }
+  });
+
+  // ── Resize ───────────────────────────────────────────────────────────────────
+  window.addEventListener('resize', () => {
+    const nw = container.clientWidth, nh = container.clientHeight;
+    svg.attr('width', nw).attr('height', nh);
+    simulation.force('center', d3.forceCenter(nw / 2, nh / 2).strength(0.08));
+    simulation.alpha(0.2).restart();
+  });
+
+} // end initGraph
+</script>
+</body>
+</html>
