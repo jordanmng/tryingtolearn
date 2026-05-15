@@ -97,17 +97,18 @@ def _parse_rankings_api(data):
 
 
 def _parse_rankings_html(html):
-    """Extract player IDs + slugs from /players/player/{id}/{slug} links."""
-    hits = re.findall(r"/players/player/(\d+)/([^\"'>\s/]+)", html)
+    """Extract player IDs + slugs from /players/{id}/{slug} links."""
+    hits = re.findall(r"/players/(\d[\d,]*)/([^\"\s<>/]+)", html)
     seen, players = set(), []
-    for rank, (pid, slug) in enumerate(hits, 1):
-        if pid in seen or rank > 20:
+    for pid_raw, slug in hits:
+        if pid_raw in seen or len(players) >= 20:
             continue
-        seen.add(pid)
+        seen.add(pid_raw)
+        pid = pid_raw.replace(",", "")
         name = re.sub(r"-+", " ", slug).title()
         players.append({
             "id":      pid,
-            "rank":    rank,
+            "rank":    len(players) + 1,
             "name":    name,
             "country": "UNK",
             "points":  0,
@@ -145,20 +146,20 @@ def get_h2h(id1, id2):
 
         matches = []
         for m in raw_matches:
-            tourn = (m.get("tournamentName")
-                     or m.get("tournament", {}).get("name", "")
+            tourn = (m.get("TournamentName")
+                     or m.get("tournamentName")
                      or "")
-            winner_id = str(
-                m.get("winnerId")
-                or m.get("winner", {}).get("id", "")
-                or ""
-            )
+            w = m.get("winner")
+            if isinstance(w, int):
+                winner_id = str(m.get(f"player_{w}", ""))
+            else:
+                winner_id = str(m.get("winnerId", ""))
             matches.append({
-                "date":       m.get("date") or m.get("matchDate") or "",
+                "date":       m.get("StartDate") or m.get("date") or "",
                 "tournament": tourn,
-                "round":      m.get("roundName") or m.get("round") or "",
+                "round":      m.get("round_name") or m.get("roundName") or "",
                 "winner_id":  winner_id,
-                "score":      m.get("score") or "",
+                "score":      m.get("scores") or m.get("score") or "",
             })
 
         return {

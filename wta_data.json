@@ -1,0 +1,6657 @@
+{
+  "players": [
+    {
+      "id": "320760",
+      "rank": 1,
+      "name": "Aryna Sabalenka",
+      "country": "BLR",
+      "points": 0,
+      "titles": 0,
+      "slug": "aryna-sabalenka"
+    },
+    {
+      "id": "324166",
+      "rank": 2,
+      "name": "Elena Rybakina",
+      "country": "KAZ",
+      "points": 0,
+      "titles": 0,
+      "slug": "elena-rybakina"
+    },
+    {
+      "id": "326408",
+      "rank": 3,
+      "name": "Iga Swiatek",
+      "country": "POL",
+      "points": 0,
+      "titles": 0,
+      "slug": "iga-swiatek"
+    },
+    {
+      "id": "328560",
+      "rank": 4,
+      "name": "Coco Gauff",
+      "country": "USA",
+      "points": 0,
+      "titles": 0,
+      "slug": "coco-gauff"
+    },
+    {
+      "id": "316956",
+      "rank": 5,
+      "name": "Jessica Pegula",
+      "country": "USA",
+      "points": 0,
+      "titles": 0,
+      "slug": "jessica-pegula"
+    },
+    {
+      "id": "326384",
+      "rank": 6,
+      "name": "Amanda Anisimova",
+      "country": "USA",
+      "points": 0,
+      "titles": 0,
+      "slug": "amanda-anisimova"
+    },
+    {
+      "id": "331809",
+      "rank": 7,
+      "name": "Mirra Andreeva",
+      "country": "RUS",
+      "points": 0,
+      "titles": 0,
+      "slug": "mirra-andreeva"
+    },
+    {
+      "id": "319280",
+      "rank": 8,
+      "name": "Jasmine Paolini",
+      "country": "ITA",
+      "points": 0,
+      "titles": 0,
+      "slug": "jasmine-paolini"
+    },
+    {
+      "id": "331006",
+      "rank": 9,
+      "name": "Victoria Mboko",
+      "country": "CAN",
+      "points": 0,
+      "titles": 0,
+      "slug": "victoria-mboko"
+    },
+    {
+      "id": "316738",
+      "rank": 10,
+      "name": "Elina Svitolina",
+      "country": "UKR",
+      "points": 0,
+      "titles": 0,
+      "slug": "elina-svitolina"
+    },
+    {
+      "id": "322191",
+      "rank": 11,
+      "name": "Karolina Muchova",
+      "country": "CZE",
+      "points": 0,
+      "titles": 0,
+      "slug": "karolina-muchova"
+    },
+    {
+      "id": "319001",
+      "rank": 12,
+      "name": "Belinda Bencic",
+      "country": "SUI",
+      "points": 0,
+      "titles": 0,
+      "slug": "belinda-bencic"
+    },
+    {
+      "id": "329668",
+      "rank": 13,
+      "name": "Linda Noskova",
+      "country": "CZE",
+      "points": 0,
+      "titles": 0,
+      "slug": "linda-noskova"
+    },
+    {
+      "id": "319007",
+      "rank": 14,
+      "name": "Ekaterina Alexandrova",
+      "country": "RUS",
+      "points": 0,
+      "titles": 0,
+      "slug": "ekaterina-alexandrova"
+    },
+    {
+      "id": "326482",
+      "rank": 15,
+      "name": "Marta Kostyuk",
+      "country": "UKR",
+      "points": 0,
+      "titles": 0,
+      "slug": "marta-kostyuk"
+    },
+    {
+      "id": "319998",
+      "rank": 16,
+      "name": "Naomi Osaka",
+      "country": "JPN",
+      "points": 0,
+      "titles": 0,
+      "slug": "naomi-osaka"
+    },
+    {
+      "id": "332285",
+      "rank": 17,
+      "name": "Iva Jovic",
+      "country": "USA",
+      "points": 0,
+      "titles": 0,
+      "slug": "iva-jovic"
+    },
+    {
+      "id": "327793",
+      "rank": 18,
+      "name": "Clara Tauson",
+      "country": "DEN",
+      "points": 0,
+      "titles": 0,
+      "slug": "clara-tauson"
+    },
+    {
+      "id": "316959",
+      "rank": 19,
+      "name": "Madison Keys",
+      "country": "USA",
+      "points": 0,
+      "titles": 0,
+      "slug": "madison-keys"
+    },
+    {
+      "id": "330482",
+      "rank": 20,
+      "name": "Diana Shnaider",
+      "country": "RUS",
+      "points": 0,
+      "titles": 0,
+      "slug": "diana-shnaider"
+    }
+  ],
+  "h2h": {
+    "320760-324166": {
+      "player1_wins": 10,
+      "player2_wins": 7,
+      "matches": [
+        {
+          "date": "2019-09-22T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  1-6  6-1"
+        },
+        {
+          "date": "2021-01-06T00:00:00+00:00",
+          "tournament": "ABU DHABI",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-4  4-6  6-3"
+        },
+        {
+          "date": "2021-06-28T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-3  4-6  6-3"
+        },
+        {
+          "date": "2023-01-16T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "4-6  6-3  6-4"
+        },
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "7-6(11)  6-4"
+        },
+        {
+          "date": "2023-09-30T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "6-2  3-6  6-3"
+        },
+        {
+          "date": "2023-12-31T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "6-0  6-3"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "1-6  7-5  7-6(5)"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "324166",
+          "score": "6-4  3-6  6-1"
+        },
+        {
+          "date": "2025-06-16T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "7-6(6)  3-6  7-6(6)"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "6-3  7-6(0)"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "6-4  4-6  6-4"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "3-6  6-3  7-6(6)"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-4  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "324166"
+    },
+    "320760-326408": {
+      "player1_wins": 5,
+      "player2_wins": 8,
+      "matches": [
+        {
+          "date": "2021-11-10T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "2-6  6-2  7-5"
+        },
+        {
+          "date": "2022-02-20T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2022-04-18T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2022-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2022-08-29T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "3-6  6-1  6-4"
+        },
+        {
+          "date": "2022-10-31T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "320760",
+          "score": "6-2  2-6  6-1"
+        },
+        {
+          "date": "2023-04-17T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-3  3-6  6-3"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "326408",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "7-5  4-6  7-6(7)"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "7-6(1)  4-6  6-0"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "326408"
+    },
+    "320760-328560": {
+      "player1_wins": 7,
+      "player2_wins": 6,
+      "matches": [
+        {
+          "date": "2020-08-10T00:00:00+00:00",
+          "tournament": "LEXINGTON",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "7-6(4)  4-6  6-4"
+        },
+        {
+          "date": "2020-10-19T00:00:00+00:00",
+          "tournament": "OSTRAVA",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "1-6  7-5  7-6(2)"
+        },
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2022-04-18T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": ""
+        },
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2022-08-08T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "7-5  4-6  7-6(4)"
+        },
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "2-6  6-3  6-2"
+        },
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "7-6(2)  6-4"
+        },
+        {
+          "date": "2024-10-07T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "1-6  6-4  6-4"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "328560",
+          "score": "7-6(4)  6-3"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-3  7-6(3)"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "6-7(5)  6-2  6-4"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "7-6(5)  6-2"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-2  4-6  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "328560"
+    },
+    "320760-316956": {
+      "player1_wins": 9,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2020-08-21T00:00:00+00:00",
+          "tournament": "CINCINNATI (NYC)",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-2  2-6  6-3"
+        },
+        {
+          "date": "2020-08-31T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-3  7-6(5)"
+        },
+        {
+          "date": "2020-09-27T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R128",
+          "winner_id": "320760",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2021-04-29T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2022-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2022-10-31T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "316956",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "7-5  7-5"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "4-6  6-3  6-4"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "2-6  6-4  7-6(2)"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "6-4  2-6  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "316956"
+    },
+    "320760-326384": {
+      "player1_wins": 5,
+      "player2_wins": 6,
+      "matches": [
+        {
+          "date": "2019-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2019-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R64",
+          "winner_id": "326384",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2022-04-04T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R16",
+          "winner_id": "326384",
+          "score": "3-6  6-4  6-3"
+        },
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R64",
+          "winner_id": "326384",
+          "score": "6-2  3-6  6-4"
+        },
+        {
+          "date": "2022-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "4-6  6-3  6-2"
+        },
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2024-08-06T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "Q",
+          "winner_id": "326384",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "S",
+          "winner_id": "326384",
+          "score": "6-4  4-6  6-4"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-3  7-6(3)"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "320760",
+          "score": "6-3  3-6  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "326384"
+    },
+    "320760-331809": {
+      "player1_wins": 4,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "331809",
+          "score": "6-7(5)  6-4  6-4"
+        },
+        {
+          "date": "2024-12-29T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "F",
+          "winner_id": "331809",
+          "score": "2-6  6-4  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "331809"
+    },
+    "320760-319280": {
+      "player1_wins": 6,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2017-06-19T00:00:00+00:00",
+          "tournament": "ILKLEY",
+          "round": "R32",
+          "winner_id": "319280",
+          "score": "4-6  7-5  7-6(2)"
+        },
+        {
+          "date": "2020-11-09T00:00:00+00:00",
+          "tournament": "LINZ",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2022-03-09T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R64",
+          "winner_id": "319280",
+          "score": "2-6  6-3  6-3"
+        },
+        {
+          "date": "2023-09-30T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-4  7-6(4)"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2025-04-14T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "320760",
+          "score": "6-3  6-1"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "319280"
+    },
+    "320760-331006": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-1  7-6(1)"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "7-6(0)  6-4"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "331006"
+    },
+    "320760-316738": {
+      "player1_wins": 6,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-09-23T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "6-4  2-6  6-1"
+        },
+        {
+          "date": "2020-09-20T00:00:00+00:00",
+          "tournament": "STRASBOURG",
+          "round": "S",
+          "winner_id": "316738",
+          "score": "6-2  4-6  6-4"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "4-6  6-1  7-6(7)"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-2  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "316738"
+    },
+    "320760-322191": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2019-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "7-6(1)  6-3"
+        },
+        {
+          "date": "2019-10-22T00:00:00+00:00",
+          "tournament": "ZHUHAI",
+          "round": "SF",
+          "winner_id": "320760",
+          "score": "7-5  7-6(4)"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "322191",
+          "score": "7-6(5)  6-7(5)  7-5"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "S",
+          "winner_id": "322191",
+          "score": "6-7(4)  6-3  6-2"
+        },
+        {
+          "date": "2024-09-25T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "Q",
+          "winner_id": "322191",
+          "score": "7-6(5)  2-6  6-4"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "322191"
+    },
+    "320760-319001": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-08-19T00:00:00+00:00",
+          "tournament": "NEW HAVEN",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2019-02-17T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-4  2-6  7-6(7)"
+        },
+        {
+          "date": "2023-01-16T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "7-5  6-2"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "319001"
+    },
+    "320760-329668": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2023-01-01T00:00:00+00:00",
+          "tournament": "ADELAIDE #1",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-3  7-6(4)"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "329668"
+    },
+    "320760-319007": {
+      "player1_wins": 4,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2017-03-13T00:00:00+00:00",
+          "tournament": "SHENZHEN",
+          "round": "F",
+          "winner_id": "319007",
+          "score": "6-2 7-5"
+        },
+        {
+          "date": "2018-12-30T00:00:00+00:00",
+          "tournament": "SHENZHEN",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2019-01-28T00:00:00+00:00",
+          "tournament": "ST. PETERSBURG ",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2021-10-18T00:00:00+00:00",
+          "tournament": "MOSCOW",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-3  7-6(7)"
+        },
+        {
+          "date": "2022-06-06T00:00:00+00:00",
+          "tournament": "'S-HERTOGENBOSCH",
+          "round": "F",
+          "winner_id": "319007",
+          "score": "7-5  6-0"
+        },
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "2-6  6-1  6-2"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "3-6  6-3  7-6(5)"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "319007"
+    },
+    "320760-326482": {
+      "player1_wins": 5,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-02-14T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R128",
+          "winner_id": "320760",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "7-6(4)  7-6(7)"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-1  7-6(8)"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "F",
+          "winner_id": "320760",
+          "score": "6-4  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "326482"
+    },
+    "320760-319998": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-08-27T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "319998",
+          "score": "6-3  2-6  6-4"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-7(1)  6-3  6-2"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "319998"
+    },
+    "320760-332285": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-0"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "332285"
+    },
+    "320760-327793": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "320760",
+          "score": "7-6(5)  6-4"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "327793",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "327793"
+    },
+    "320760-316959": {
+      "player1_wins": 6,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2018-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2021-06-14T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "6-4  1-6  7-5"
+        },
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "0-6  7-6(1)  7-6(5)"
+        },
+        {
+          "date": "2024-09-25T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "320760",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "F",
+          "winner_id": "316959",
+          "score": "6-3  2-6  7-5"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "320760",
+          "score": "6-0  6-1"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "Q",
+          "winner_id": "320760",
+          "score": "6-3  6-3"
+        }
+      ],
+      "player1_id": "320760",
+      "player2_id": "316959"
+    },
+    "320760-330482": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "320760",
+      "player2_id": "330482"
+    },
+    "324166-326408": {
+      "player1_wins": 6,
+      "player2_wins": 6,
+      "matches": [
+        {
+          "date": "2021-09-20T00:00:00+00:00",
+          "tournament": "OSTRAVA",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "7-6(5)  6-2"
+        },
+        {
+          "date": "2023-01-16T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2023-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "2-6  7-6(3)  2-2"
+        },
+        {
+          "date": "2024-02-11T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "7-6(8)  6-2"
+        },
+        {
+          "date": "2024-04-15T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "6-3  4-6  6-3"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "326408",
+          "score": "7-6(5)  6-4"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-2  7-5"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "1-6  6-3  7-5"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "324166",
+          "score": "3-6  6-1  6-0"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "7-5  6-1"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "326408"
+    },
+    "324166-328560": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2021-08-09T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R32",
+          "winner_id": "324166",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2022-08-08T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-4  6-7(8)  7-6(3)"
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": ""
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "328560"
+    },
+    "324166-316956": {
+      "player1_wins": 6,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2022-10-17T00:00:00+00:00",
+          "tournament": "GUADALAJARA",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "2-6  6-3  7-6(8)"
+        },
+        {
+          "date": "2023-03-21T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "7-6(3)  6-4"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "316956",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "324166",
+          "score": "4-6  6-4  6-3"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "6-3  7-6(7)"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-1  7-6(4)"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "2-6  6-3  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "316956"
+    },
+    "324166-326384": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "324166",
+          "score": "6-3  6-1"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "326384"
+    },
+    "324166-331809": {
+      "player1_wins": 2,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2023-09-30T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "2-6  6-4  6-1"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "331809",
+          "score": "6-4  4-6  6-3"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "7-5  6-1"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "331809"
+    },
+    "324166-319280": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2023-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "7-6(4)  6-1"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "4-6  5-2"
+        },
+        {
+          "date": "2024-02-18T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": ""
+        },
+        {
+          "date": "2024-04-15T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-3  5-7  6-3"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "6-2  4-6  6-4"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "319280",
+          "score": "7-6(5)  6-4"
+        },
+        {
+          "date": "2025-10-13T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "319280"
+    },
+    "324166-331006": {
+      "player1_wins": 2,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2025-07-21T00:00:00+00:00",
+          "tournament": "WASHINGTON DC",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "S",
+          "winner_id": "331006",
+          "score": "1-6  7-5  7-6(4)"
+        },
+        {
+          "date": "2025-10-20T00:00:00+00:00",
+          "tournament": "TOKYO",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-3  7-6(4)"
+        },
+        {
+          "date": "2026-02-08T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "331006",
+          "score": "7-5  4-6  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "331006"
+    },
+    "324166-316738": {
+      "player1_wins": 4,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2020-09-20T00:00:00+00:00",
+          "tournament": "STRASBOURG",
+          "round": "F",
+          "winner_id": "316738",
+          "score": "6-4  1-6  6-2"
+        },
+        {
+          "date": "2021-06-21T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-4  7-6(3)"
+        },
+        {
+          "date": "2021-07-24T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R128",
+          "winner_id": "316738",
+          "score": "1-6  7-6(5)  6-4"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2024-07-01T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "7-5  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "316738"
+    },
+    "324166-322191": {
+      "player1_wins": 2,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2019-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R128",
+          "winner_id": "322191",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2021-08-09T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "7-6(4)  2-6  6-4"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "Q",
+          "winner_id": "322191",
+          "score": "6-2  2-6  6-4"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "7-5  6-1"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "322191"
+    },
+    "324166-319001": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-07-24T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "7-6(2)  4-6  6-3"
+        },
+        {
+          "date": "2021-09-27T00:00:00+00:00",
+          "tournament": "CHICAGO 500",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-4  3-1"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-2  6-7(4)  10-7"
+        },
+        {
+          "date": "2025-02-03T00:00:00+00:00",
+          "tournament": "ABU DHABI",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "3-6  6-3  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "319001"
+    },
+    "324166-329668": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2023-12-31T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "S",
+          "winner_id": "324166",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2025-10-20T00:00:00+00:00",
+          "tournament": "TOKYO",
+          "round": "S",
+          "winner_id": "329668",
+          "score": ""
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "329668"
+    },
+    "324166-319007": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2020-01-05T00:00:00+00:00",
+          "tournament": "SHENZHEN",
+          "round": "F",
+          "winner_id": "319007",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2020-08-21T00:00:00+00:00",
+          "tournament": "CINCINNATI (NYC)",
+          "round": "R64",
+          "winner_id": "319007",
+          "score": "7-5  7-6(6)"
+        },
+        {
+          "date": "2020-09-14T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "6-0  6-4"
+        },
+        {
+          "date": "2024-01-08T00:00:00+00:00",
+          "tournament": "ADELAIDE",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2025-10-13T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "3-6  6-0  6-2"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "324166",
+          "score": "6-4  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "319007"
+    },
+    "324166-326482": {
+      "player1_wins": 5,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-01-01T00:00:00+00:00",
+          "tournament": "ADELAIDE #1",
+          "round": "R16",
+          "winner_id": "326482",
+          "score": "6-7(5)  6-2  6-3"
+        },
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "326482",
+          "score": ""
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R128",
+          "winner_id": "324166",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2024-04-15T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "F",
+          "winner_id": "324166",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "Q",
+          "winner_id": "324166",
+          "score": "6-1  2-1"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "324166",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "324166",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "326482"
+    },
+    "324166-319998": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "324166",
+      "player2_id": "319998"
+    },
+    "324166-332285": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "6-0  6-3"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "6-3  6-3"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "332285"
+    },
+    "324166-327793": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2019-07-08T00:00:00+00:00",
+          "tournament": "BASTAD",
+          "round": "R32",
+          "winner_id": "324166",
+          "score": "6-4  7-6(5)"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "324166",
+          "score": "3-6  7-5  6-4"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R32",
+          "winner_id": "327793",
+          "score": "7-6(6)  6-3"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "327793"
+    },
+    "324166-316959": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "3-6  6-1  7-6(3)"
+        },
+        {
+          "date": "2022-08-15T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2022-10-03T00:00:00+00:00",
+          "tournament": "OSTRAVA",
+          "round": "R32",
+          "winner_id": "324166",
+          "score": "5-7  6-3  6-3"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-3  7-5"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "6-3  1-6  6-3"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-7(3)  6-4  6-2"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "316959"
+    },
+    "324166-330482": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "R16",
+          "winner_id": "324166",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "324166",
+      "player2_id": "330482"
+    },
+    "326408-328560": {
+      "player1_wins": 11,
+      "player2_wins": 5,
+      "matches": [
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "7-6(3)  6-3"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2022-10-10T00:00:00+00:00",
+          "tournament": "SAN DIEGO",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-0  6-3"
+        },
+        {
+          "date": "2022-10-31T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "326408",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "7-6(2)  3-6  6-4"
+        },
+        {
+          "date": "2023-09-30T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "326408",
+          "score": "6-0  7-5"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "328560",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "328560",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2026-01-02T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "328560",
+          "score": "6-4  6-2"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "328560"
+    },
+    "326408-316956": {
+      "player1_wins": 6,
+      "player2_wins": 5,
+      "matches": [
+        {
+          "date": "2019-07-29T00:00:00+00:00",
+          "tournament": "WASHINGTON DC",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "5-7  6-4  6-1"
+        },
+        {
+          "date": "2020-08-21T00:00:00+00:00",
+          "tournament": "CINCINNATI (NYC)",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-1  1-6  10-7"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  7-5"
+        },
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2022-08-29T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-3  7-6(4)"
+        },
+        {
+          "date": "2022-10-10T00:00:00+00:00",
+          "tournament": "SAN DIEGO",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "4-6  6-2  6-2"
+        },
+        {
+          "date": "2022-12-29T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "316956",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2023-02-13T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2023-08-07T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-2  6-7(4)  6-4"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-1  6-0"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "F",
+          "winner_id": "316956",
+          "score": "6-4  7-5"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "316956"
+    },
+    "326408-326384": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-0  6-0"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "Q",
+          "winner_id": "326384",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "326384",
+          "score": "6-7(3)  6-4  6-2"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "326384"
+    },
+    "326408-331809": {
+      "player1_wins": 1,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "4-6  6-3  7-5"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "331809",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "331809",
+          "score": "7-6(1)  1-6  6-3"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "331809",
+          "score": "3-6  6-4  6-3"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "331809"
+    },
+    "326408-319280": {
+      "player1_wins": 6,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-07-24T00:00:00+00:00",
+          "tournament": "PRAGUE",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2022-08-29T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R128",
+          "winner_id": "326408",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2024-11-11T00:00:00+00:00",
+          "tournament": "BJK CUP- SEMIFINALS",
+          "round": "",
+          "winner_id": "319280",
+          "score": "7-5  7-5"
+        },
+        {
+          "date": "2024-11-11T00:00:00+00:00",
+          "tournament": "BJK CUP- SEMIFINALS",
+          "round": "",
+          "winner_id": "326408",
+          "score": "3-6  6-4  6-4"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "6-1  6-2"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "319280"
+    },
+    "326408-331006": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "326408",
+      "player2_id": "331006"
+    },
+    "326408-316738": {
+      "player1_wins": 4,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-2  7-5"
+        },
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "7-5  6-7(5)  6-2"
+        },
+        {
+          "date": "2024-02-18T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "7-6(5)  6-3"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-1  7-5"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "6-2  4-6  6-4"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "316738"
+    },
+    "326408-322191": {
+      "player1_wins": 5,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2019-04-29T00:00:00+00:00",
+          "tournament": "PRAGUE",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "4-6  6-1  6-4"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-2  5-7  6-4"
+        },
+        {
+          "date": "2023-08-07T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-1  4-6  6-4"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "326408",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-2  6-0"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "322191"
+    },
+    "326408-319001": {
+      "player1_wins": 5,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-02-22T00:00:00+00:00",
+          "tournament": "ADELAIDE 500",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2021-08-30T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "7-6(12)  6-3"
+        },
+        {
+          "date": "2022-12-29T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "326408",
+          "score": "6-3  7-6(3)"
+        },
+        {
+          "date": "2023-02-13T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": ""
+        },
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-7(4)  7-6(2)  6-3"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  6-0"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "7-6(2)  6-4"
+        },
+        {
+          "date": "2026-01-02T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "319001",
+          "score": "3-6  6-0  6-3"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "319001"
+    },
+    "326408-329668": {
+      "player1_wins": 5,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-07-24T00:00:00+00:00",
+          "tournament": "WARSAW",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "329668",
+          "score": "3-6  6-3  6-4"
+        },
+        {
+          "date": "2024-03-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": "6-7(7)  6-4  6-4"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-7(1)  6-4  6-4"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": "6-4  6-2"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "329668"
+    },
+    "326408-319007": {
+      "player1_wins": 6,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-01-31T00:00:00+00:00",
+          "tournament": "MELBOURNE 500 GIPPSLAND TROPHY",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2022-10-03T00:00:00+00:00",
+          "tournament": "OSTRAVA",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "7-6(5)  2-6  6-4"
+        },
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-4  6-7(3)  6-3"
+        },
+        {
+          "date": "2024-02-11T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-4  7-6(5)"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2025-09-15T00:00:00+00:00",
+          "tournament": "SEOUL",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "1-6  7-6(3)  7-5"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "319007"
+    },
+    "326408-326482": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2019-02-09T00:00:00+00:00",
+          "tournament": "FED CUP WEEK 1",
+          "round": "R1",
+          "winner_id": "326408",
+          "score": "6-1  1-6  7-6(5)"
+        },
+        {
+          "date": "2021-05-30T00:00:00+00:00",
+          "tournament": "ROLAND-GARROS",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2024-03-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": ""
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "326482"
+    },
+    "326408-319998": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2019-08-05T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R16",
+          "winner_id": "319998",
+          "score": "7-6(4)  6-4"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "F",
+          "winner_id": "326408",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R64",
+          "winner_id": "326408",
+          "score": "7-6(1)  1-6  7-5"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "319998"
+    },
+    "326408-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "326408",
+      "player2_id": "332285"
+    },
+    "326408-327793": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2022-03-09T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": "6-7(3)  6-2  6-1"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "327793",
+          "score": "7-6(1)  6-3"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "327793"
+    },
+    "326408-316959": {
+      "player1_wins": 6,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "326408",
+          "score": "7-5  6-1"
+        },
+        {
+          "date": "2022-03-09T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-1  6-0"
+        },
+        {
+          "date": "2022-08-15T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "326408",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "S",
+          "winner_id": "316959",
+          "score": "5-7  6-1  7-6(8)"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "326408",
+          "score": "0-6  6-3  6-2"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "326408",
+          "score": "6-1  6-2"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "316959"
+    },
+    "326408-330482": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "326408",
+          "score": "6-0  6-7(3)  6-4"
+        }
+      ],
+      "player1_id": "326408",
+      "player2_id": "330482"
+    },
+    "328560-316956": {
+      "player1_wins": 3,
+      "player2_wins": 5,
+      "matches": [
+        {
+          "date": "2022-02-14T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2023-06-26T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2023-08-07T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-2  5-7  7-5"
+        },
+        {
+          "date": "2023-10-29T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "316956",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2024-06-17T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "7-5  7-6(2)"
+        },
+        {
+          "date": "2024-11-02T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "328560",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "316956",
+          "score": "6-3  6-7(4)  6-2"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "316956"
+    },
+    "328560-326384": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-05-16T00:00:00+00:00",
+          "tournament": "PARMA",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2022-06-27T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "6-7(4)  6-2  6-1"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "S",
+          "winner_id": "326384",
+          "score": "6-1  6-2"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "326384"
+    },
+    "328560-331809": {
+      "player1_wins": 4,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-7(5)  6-1  6-1"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "4-6  6-4  10-8"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "7-5  6-1"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-4  7-6(5)"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "331809"
+    },
+    "328560-319280": {
+      "player1_wins": 4,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-02-22T00:00:00+00:00",
+          "tournament": "ADELAIDE 500",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-4  6-7(4)  6-2"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2025-04-14T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "F",
+          "winner_id": "319280",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "2-6  6-4  6-3"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "328560",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "319280"
+    },
+    "328560-331006": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "3-6  6-2  6-1"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "331006",
+          "score": "6-1  6-4"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "331006"
+    },
+    "328560-316738": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-02-08T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "316738",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2024-01-01T00:00:00+00:00",
+          "tournament": "AUCKLAND",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "6-7(4)  6-3  6-3"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "3-6  6-3  6-3"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "316738",
+          "score": "6-4  6-7(13)  6-4"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "316738"
+    },
+    "328560-322191": {
+      "player1_wins": 6,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2020-01-20T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2021-01-31T00:00:00+00:00",
+          "tournament": "MELBOURNE 500 YARRA VALLEY",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-2"
+        },
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": ""
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "2-6  6-4  10-5"
+        },
+        {
+          "date": "2024-09-25T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "F",
+          "winner_id": "328560",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "328560",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-1  3-6  6-3"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "322191",
+          "score": "6-3  5-7  6-3"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "322191"
+    },
+    "328560-319001": {
+      "player1_wins": 5,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-02-22T00:00:00+00:00",
+          "tournament": "ADELAIDE 500",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "7-6(2)  6-7(4)  6-2"
+        },
+        {
+          "date": "2023-07-31T00:00:00+00:00",
+          "tournament": "WASHINGTON DC",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "5-7  6-2  6-1"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "3-6  6-3  6-4"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "4-6  7-6(4)  6-2"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-3  1-6  6-3"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "319001"
+    },
+    "328560-329668": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2024-06-17T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "6-4  1-6  7-6(5)"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "329668"
+    },
+    "328560-319007": {
+      "player1_wins": 4,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2021-03-07T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "7-6(3)  2-6  7-6(8)"
+        },
+        {
+          "date": "2023-06-19T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2023-09-30T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R64",
+          "winner_id": "328560",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2024-06-17T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "7-6(6)  6-2"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-0  7-5"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "319007"
+    },
+    "328560-326482": {
+      "player1_wins": 3,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2022-01-10T00:00:00+00:00",
+          "tournament": "ADELAIDE 250",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-3  5-7  6-3"
+        },
+        {
+          "date": "2022-01-17T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "326482",
+          "score": "5-7  6-4  7-5"
+        },
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "7-5  7-6(5)"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-7(4)  6-4  6-2"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "7-6(6)  6-7(3)  6-2"
+        },
+        {
+          "date": "2024-04-15T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "326482",
+          "score": "3-6  6-4  7-6(6)"
+        },
+        {
+          "date": "2024-10-07T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-2  7-5"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "326482"
+    },
+    "328560-319998": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2019-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2020-01-20T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2021-08-16T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": "4-6  6-3  6-4"
+        },
+        {
+          "date": "2022-08-01T00:00:00+00:00",
+          "tournament": "SAN JOSE",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2024-09-25T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "328560",
+          "score": "3-6  6-4"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "319998",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "319998"
+    },
+    "328560-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "328560",
+      "player2_id": "332285"
+    },
+    "328560-327793": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "328560",
+      "player2_id": "327793"
+    },
+    "328560-316959": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2022-01-10T00:00:00+00:00",
+          "tournament": "ADELAIDE 250",
+          "round": "S",
+          "winner_id": "316959",
+          "score": "3-6  6-2  7-5"
+        },
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "6-4  7-6(4)"
+        },
+        {
+          "date": "2022-08-08T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "S",
+          "winner_id": "328560",
+          "score": "7-5  7-5"
+        },
+        {
+          "date": "2022-08-29T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "328560",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-2  7-5"
+        },
+        {
+          "date": "2023-06-26T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "S",
+          "winner_id": "316959",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "7-6(4)  4-6  6-4"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "328560",
+          "score": "6-7(6)  6-4  6-1"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "316959"
+    },
+    "328560-330482": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-08-06T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R16",
+          "winner_id": "330482",
+          "score": "6-4  6-1"
+        }
+      ],
+      "player1_id": "328560",
+      "player2_id": "330482"
+    },
+    "316956-326384": {
+      "player1_wins": 5,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2020-08-21T00:00:00+00:00",
+          "tournament": "CINCINNATI (NYC)",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2024-04-01T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "3-6  6-4  7-6(3)"
+        },
+        {
+          "date": "2024-08-06T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "F",
+          "winner_id": "316956",
+          "score": "6-3  2-6  6-1"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-2  7-6(1)"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "1-6  6-4  6-3"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "326384"
+    },
+    "316956-331809": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "331809",
+          "score": "4-6  6-3  10-7"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": ""
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "331809"
+    },
+    "316956-319280": {
+      "player1_wins": 6,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2016-03-14T00:00:00+00:00",
+          "tournament": "ORLANDO",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2018-11-12T00:00:00+00:00",
+          "tournament": "HOUSTON",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "7-6(8)  6-2"
+        },
+        {
+          "date": "2021-05-30T00:00:00+00:00",
+          "tournament": "ROLAND-GARROS",
+          "round": "R64",
+          "winner_id": "316956",
+          "score": "6-2  2-6  6-3"
+        },
+        {
+          "date": "2021-10-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2022-04-04T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2023-08-07T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2025-09-19T00:00:00+00:00",
+          "tournament": "BJK CUP FINAL",
+          "round": "",
+          "winner_id": "319280",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "316956",
+          "score": "6-2  6-3"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "319280"
+    },
+    "316956-331006": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "316956",
+      "player2_id": "331006"
+    },
+    "316956-316738": {
+      "player1_wins": 6,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-01-06T00:00:00+00:00",
+          "tournament": "ABU DHABI",
+          "round": "R64",
+          "winner_id": "316738",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2021-02-08T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-4  3-6  6-3"
+        },
+        {
+          "date": "2021-10-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2023-07-31T00:00:00+00:00",
+          "tournament": "WASHINGTON DC",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "4-6  6-3  6-4"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-4  4-6  6-2"
+        },
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "4-6  6-1  6-3"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-3  7-6(3)"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "5-7  6-1  6-2"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "F",
+          "winner_id": "316956",
+          "score": "6-2  6-4"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "316738"
+    },
+    "316956-322191": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": ""
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": ""
+        },
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "2-6  6-4  10-5"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "5-7  6-4  6-2"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "1-6  6-4  6-2"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "322191"
+    },
+    "316956-319001": {
+      "player1_wins": 1,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2015-06-08T00:00:00+00:00",
+          "tournament": "'S-HERTOGENBOSCH",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-2  7-6(3)"
+        },
+        {
+          "date": "2021-07-24T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R64",
+          "winner_id": "319001",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2021-08-30T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2023-04-03T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "7-5  7-6(5)"
+        },
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-3  7-6(5)"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "319001"
+    },
+    "316956-329668": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2024-06-17T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "6-4  6-0"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "6-3  7-6(8)"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-7(2)  7-5  6-1"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "S",
+          "winner_id": "329668",
+          "score": "6-3  1-6  7-6(6)"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "329668"
+    },
+    "316956-319007": {
+      "player1_wins": 3,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "3-6  6-4  6-4"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "4-6  6-1  6-1"
+        },
+        {
+          "date": "2025-03-31T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-2  2-6  7-5"
+        },
+        {
+          "date": "2025-04-14T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "6-0  6-4"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "7-5  3-6  6-3"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "319007"
+    },
+    "316956-326482": {
+      "player1_wins": 4,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-01-31T00:00:00+00:00",
+          "tournament": "MELBOURNE 500 YARRA VALLEY",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-2  3-6  10-8"
+        },
+        {
+          "date": "2022-08-15T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-7(5)  6-1  6-2"
+        },
+        {
+          "date": "2023-01-16T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-0  6-2"
+        },
+        {
+          "date": "2023-04-25T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "7-5  7-6(5)"
+        },
+        {
+          "date": "2023-05-28T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-7(4)  6-4  6-2"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2024-02-26T00:00:00+00:00",
+          "tournament": "SAN DIEGO",
+          "round": "S",
+          "winner_id": "326482",
+          "score": "7-6(4)  6-1"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-3  6-7(4)  6-1"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "S",
+          "winner_id": "326482",
+          "score": "6-0  6-3"
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-1  6-4"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "326482"
+    },
+    "316956-319998": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2019-09-28T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R64",
+          "winner_id": "319998",
+          "score": "6-3  7-6(5)"
+        },
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "7-6(2)  6-2"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "319998"
+    },
+    "316956-332285": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "316956",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2026-03-30T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-4  5-7  6-3"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "332285"
+    },
+    "316956-327793": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-01-04T00:00:00+00:00",
+          "tournament": "MELBOURNE 250 #1",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-3  2-6  6-4"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "327793"
+    },
+    "316956-316959": {
+      "player1_wins": 2,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-4  7-6(4)"
+        },
+        {
+          "date": "2022-08-08T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "7-5  7-5"
+        },
+        {
+          "date": "2022-10-10T00:00:00+00:00",
+          "tournament": "SAN DIEGO",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2023-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2025-01-06T00:00:00+00:00",
+          "tournament": "ADELAIDE",
+          "round": "F",
+          "winner_id": "316959",
+          "score": "6-3  4-6  6-1"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "316959"
+    },
+    "316956-330482": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-08-06T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "S",
+          "winner_id": "316956",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "316956",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2026-03-30T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "Q",
+          "winner_id": "316956",
+          "score": "3-6  6-3  6-2"
+        }
+      ],
+      "player1_id": "316956",
+      "player2_id": "330482"
+    },
+    "326384-331809": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "7-6(5)  2-6  6-3"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "326384",
+          "score": "2-6  7-5  7-6(4)"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "331809"
+    },
+    "326384-319280": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2021-05-16T00:00:00+00:00",
+          "tournament": "PARMA",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "Q",
+          "winner_id": "326384",
+          "score": "6-7(4)  6-3  6-4"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "319280"
+    },
+    "326384-331006": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2026-03-04T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "331006",
+          "score": "6-4  6-1"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "331006"
+    },
+    "326384-316738": {
+      "player1_wins": 1,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2018-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2020-02-23T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "2-6  6-3  6-4"
+        },
+        {
+          "date": "2021-09-27T00:00:00+00:00",
+          "tournament": "CHICAGO 500",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-4  6-1"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "316738"
+    },
+    "326384-322191": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "6-7(7)  6-2  3-0"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R16",
+          "winner_id": "326384",
+          "score": "1-6  6-2  6-4"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "322191"
+    },
+    "326384-319001": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2019-06-17T00:00:00+00:00",
+          "tournament": "MALLORCA",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2022-01-17T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "326384",
+          "score": "6-2  7-5"
+        },
+        {
+          "date": "2022-05-09T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "7-6(5)  6-1"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R64",
+          "winner_id": "319001",
+          "score": "6-4  6-7(3)  6-1"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-2  6-2"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "319001"
+    },
+    "326384-329668": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R64",
+          "winner_id": "329668",
+          "score": "7-6(6)  6-3"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "326384",
+          "score": "6-2  5-7  6-4"
+        },
+        {
+          "date": "2025-09-24T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "F",
+          "winner_id": "326384",
+          "score": "6-0  2-6  6-2"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "329668"
+    },
+    "326384-319007": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2020-02-23T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R64",
+          "winner_id": "326384",
+          "score": "6-3  7-6(4)"
+        },
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "S",
+          "winner_id": "326384",
+          "score": "6-3  6-3"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "319007"
+    },
+    "326384-326482": {
+      "player1_wins": 1,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2019-05-04T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-0  2-6  6-0"
+        },
+        {
+          "date": "2023-01-16T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R128",
+          "winner_id": "326482",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2024-10-07T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": ""
+        },
+        {
+          "date": "2025-02-09T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "326384",
+          "score": "4-6  7-5  6-4"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R16",
+          "winner_id": "326482",
+          "score": "6-4  6-3"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "326482"
+    },
+    "326384-319998": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-01-17T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "4-6  6-3  7-6(5)"
+        },
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R128",
+          "winner_id": "326384",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "326384",
+          "score": "6-7(4)  7-6(3)  6-3"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "319998"
+    },
+    "326384-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "326384",
+      "player2_id": "332285"
+    },
+    "326384-327793": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "326384",
+          "score": "7-6(4)  6-4"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "327793"
+    },
+    "326384-316959": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-11-01T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "R1",
+          "winner_id": "326384",
+          "score": "4-6  6-3  6-2"
+        }
+      ],
+      "player1_id": "326384",
+      "player2_id": "316959"
+    },
+    "326384-330482": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "326384",
+      "player2_id": "330482"
+    },
+    "331809-319280": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "7-6(2)  6-4"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "319280",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "3-6  6-3  6-2"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "319280"
+    },
+    "331809-331006": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2026-01-12T00:00:00+00:00",
+          "tournament": "ADELAIDE",
+          "round": "F",
+          "winner_id": "331809",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2026-02-08T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R16",
+          "winner_id": "331006",
+          "score": "6-3  3-6  7-6(5)"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "331006",
+          "score": "7-6(4)  4-6  6-0"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "331006"
+    },
+    "331809-316738": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "331809",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-2  6-4"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "316738"
+    },
+    "331809-322191": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-10-14T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "S",
+          "winner_id": "331809",
+          "score": "6-2  1-0"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "322191"
+    },
+    "331809-319001": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "7-6(3)  7-6(2)"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "319001"
+    },
+    "331809-329668": {
+      "player1_wins": 4,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2023-12-31T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "Q",
+          "winner_id": "329668",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2024-04-23T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R64",
+          "winner_id": "331809",
+          "score": "4-6  6-3  6-3"
+        },
+        {
+          "date": "2024-12-29T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "331809",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R32",
+          "winner_id": "331809",
+          "score": "6-1  7-5"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "Q",
+          "winner_id": "329668",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "5-7  6-4  7-5"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "329668"
+    },
+    "331809-319007": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "331809",
+          "score": "5-7  6-3  10-4"
+        },
+        {
+          "date": "2025-04-14T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "319007"
+    },
+    "331809-326482": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "326482",
+          "score": ""
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "Q",
+          "winner_id": "326482",
+          "score": "7-6(7)  6-3"
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "F",
+          "winner_id": "326482",
+          "score": "6-3  7-5"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "326482"
+    },
+    "331809-319998": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331809",
+      "player2_id": "319998"
+    },
+    "331809-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331809",
+      "player2_id": "332285"
+    },
+    "331809-327793": {
+      "player1_wins": 4,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "F",
+          "winner_id": "331809",
+          "score": "7-6(1)  6-1"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "331809",
+          "score": "6-3  6-0"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "5-7  6-3  6-2"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "R16",
+          "winner_id": "331809",
+          "score": "3-6  6-3  6-1"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "327793"
+    },
+    "331809-316959": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "3-6  7-6(4)  6-2"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "316959"
+    },
+    "331809-330482": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2023-12-31T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R64",
+          "winner_id": "331809",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2026-01-12T00:00:00+00:00",
+          "tournament": "ADELAIDE",
+          "round": "S",
+          "winner_id": "331809",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "331809",
+      "player2_id": "330482"
+    },
+    "319280-331006": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "319280",
+      "player2_id": "331006"
+    },
+    "319280-316738": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "2-6  6-4  6-0"
+        },
+        {
+          "date": "2025-05-25T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "4-6  7-6(6)  6-1"
+        },
+        {
+          "date": "2025-09-19T00:00:00+00:00",
+          "tournament": "BJK CUP SEMIFINALS ",
+          "round": "",
+          "winner_id": "319280",
+          "score": "3-6  6-4  6-4"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "316738"
+    },
+    "319280-322191": {
+      "player1_wins": 0,
+      "player2_wins": 5,
+      "matches": [
+        {
+          "date": "2018-06-12T00:00:00+00:00",
+          "tournament": "MANCHESTER",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "7-6(6)  6-0"
+        },
+        {
+          "date": "2018-08-27T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "322191",
+          "score": "7-5  6-2"
+        },
+        {
+          "date": "2021-01-31T00:00:00+00:00",
+          "tournament": "MELBOURNE 500 GIPPSLAND TROPHY",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "6-2  4-6  6-4"
+        },
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "S",
+          "winner_id": "319280",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "322191",
+          "score": "6-2  6-2"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "322191"
+    },
+    "319280-319001": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2018-11-06T00:00:00+00:00",
+          "tournament": "LAS VEGAS",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2022-11-08T00:00:00+00:00",
+          "tournament": "BJK CUP FINALS - GROUP A",
+          "round": "",
+          "winner_id": "319001",
+          "score": "7-5  6-3"
+        },
+        {
+          "date": "2022-11-08T00:00:00+00:00",
+          "tournament": "BJK CUP FINALS - GROUP A",
+          "round": "",
+          "winner_id": "319001",
+          "score": "7-6(5)  6-1"
+        },
+        {
+          "date": "2024-12-27T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "319280",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2025-10-13T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "5-7  7-5  6-3"
+        },
+        {
+          "date": "2026-01-02T00:00:00+00:00",
+          "tournament": "UNITED CUP",
+          "round": "",
+          "winner_id": "319001",
+          "score": "6-4  6-3"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "319001"
+    },
+    "319280-329668": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "Q",
+          "winner_id": "329668",
+          "score": "3-6  6-4  10-7"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "329668"
+    },
+    "319280-319007": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2016-02-08T00:00:00+00:00",
+          "tournament": "TRNAVA",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "6-2  6-3"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R128",
+          "winner_id": "319007",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2024-08-13T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "4-6  6-1  10-6"
+        },
+        {
+          "date": "2024-10-07T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "4-6  6-4  10-8"
+        },
+        {
+          "date": "2025-04-14T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "6-2  2-6  10-8"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "319007"
+    },
+    "319280-326482": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2022-01-17T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2022-08-15T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2022-10-10T00:00:00+00:00",
+          "tournament": "CLUJ-NAPOCA",
+          "round": "R32",
+          "winner_id": "319280",
+          "score": "5-7  6-3  6-4"
+        },
+        {
+          "date": "2023-08-14T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R64",
+          "winner_id": "319280",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2024-05-26T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "S",
+          "winner_id": "319280",
+          "score": "1-6  6-4  6-1"
+        },
+        {
+          "date": "2025-06-16T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2025-09-19T00:00:00+00:00",
+          "tournament": "BJK CUP SEMIFINALS ",
+          "round": "",
+          "winner_id": "319280",
+          "score": "6-2  6-3"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "326482"
+    },
+    "319280-319998": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "3-6  6-4  6-4"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "319998"
+    },
+    "319280-332285": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R64",
+          "winner_id": "319280",
+          "score": "7-6(3)  1-6  6-3"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "319280",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "332285",
+          "score": "6-2  7-6(3)"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "332285"
+    },
+    "319280-327793": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-09-25T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R64",
+          "winner_id": "319280",
+          "score": "1-6  7-5  6-4"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "3-6  6-1  3-1"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "327793"
+    },
+    "319280-316959": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R64",
+          "winner_id": "316959",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2023-08-07T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R32",
+          "winner_id": "319280",
+          "score": ""
+        },
+        {
+          "date": "2024-07-01T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "319280",
+          "score": "6-3  6-7(6)  5-5"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "316959"
+    },
+    "319280-330482": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R128",
+          "winner_id": "319280",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2025-05-06T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "Q",
+          "winner_id": "319280",
+          "score": "6-7(1)  6-4  6-2"
+        }
+      ],
+      "player1_id": "319280",
+      "player2_id": "330482"
+    },
+    "331006-316738": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331006",
+      "player2_id": "316738"
+    },
+    "331006-322191": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2026-02-08T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "F",
+          "winner_id": "322191",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "Q",
+          "winner_id": "322191",
+          "score": "7-5  7-6(5)"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "322191"
+    },
+    "331006-319001": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331006",
+      "player2_id": "319001"
+    },
+    "331006-329668": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331006",
+      "player2_id": "329668"
+    },
+    "331006-319007": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R64",
+          "winner_id": "319007",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "319007"
+    },
+    "331006-326482": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331006",
+      "player2_id": "326482"
+    },
+    "331006-319998": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "F",
+          "winner_id": "331006",
+          "score": "2-6  6-4  6-1"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "319998"
+    },
+    "331006-332285": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-09-23T00:00:00+00:00",
+          "tournament": "BERKELEY",
+          "round": "F",
+          "winner_id": "332285",
+          "score": "6-3  2-6  6-3"
+        },
+        {
+          "date": "2024-10-07T00:00:00+00:00",
+          "tournament": "EDMOND",
+          "round": "R32",
+          "winner_id": "331006",
+          "score": "5-7  6-2  7-6(3)"
+        },
+        {
+          "date": "2025-01-27T00:00:00+00:00",
+          "tournament": "ROME, GA",
+          "round": "R32",
+          "winner_id": "331006",
+          "score": "7-6(3)  6-4"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "332285"
+    },
+    "331006-327793": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "331006",
+          "score": "7-6(5)  5-7  6-3"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "327793"
+    },
+    "331006-316959": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-12T00:00:00+00:00",
+          "tournament": "ADELAIDE",
+          "round": "Q",
+          "winner_id": "331006",
+          "score": "6-4  4-6  6-2"
+        }
+      ],
+      "player1_id": "331006",
+      "player2_id": "316959"
+    },
+    "331006-330482": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "331006",
+      "player2_id": "330482"
+    },
+    "316738-322191": {
+      "player1_wins": 3,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2019-02-11T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2019-07-01T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "6-2  3-6  6-2"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "S",
+          "winner_id": "322191",
+          "score": "6-4  2-6  6-4"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "322191"
+    },
+    "316738-319001": {
+      "player1_wins": 4,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2014-03-31T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-7(4)  6-4  6-1"
+        },
+        {
+          "date": "2019-02-17T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "6-2  3-6  7-6(3)"
+        },
+        {
+          "date": "2019-08-05T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2019-10-27T00:00:00+00:00",
+          "tournament": "WTA FINALS",
+          "round": "SF",
+          "winner_id": "316738",
+          "score": "5-7  6-3  4-1"
+        },
+        {
+          "date": "2025-03-18T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "316738",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "4-6  6-1  6-3"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "319001"
+    },
+    "316738-329668": {
+      "player1_wins": 1,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2024-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "3-0"
+        },
+        {
+          "date": "2024-08-19T00:00:00+00:00",
+          "tournament": "MONTERREY",
+          "round": "Q",
+          "winner_id": "329668",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "7-6(2)  7-5"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "329668"
+    },
+    "316738-319007": {
+      "player1_wins": 3,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2020-09-27T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2021-01-06T00:00:00+00:00",
+          "tournament": "ABU DHABI",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-2  6-7(5)  7-6(8)"
+        },
+        {
+          "date": "2021-03-23T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "7-6(1)  6-4"
+        },
+        {
+          "date": "2021-06-14T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-4  7-5"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "319007"
+    },
+    "316738-326482": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-01-15T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2024-08-06T00:00:00+00:00",
+          "tournament": "TORONTO",
+          "round": "R32",
+          "winner_id": "326482",
+          "score": "6-2  2-6  6-2"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "326482"
+    },
+    "316738-319998": {
+      "player1_wins": 3,
+      "player2_wins": 5,
+      "matches": [
+        {
+          "date": "2014-10-06T00:00:00+00:00",
+          "tournament": "OSAKA",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "3-6  6-3  6-4"
+        },
+        {
+          "date": "2016-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "319998",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2016-09-19T00:00:00+00:00",
+          "tournament": "TOKYO",
+          "round": "S",
+          "winner_id": "319998",
+          "score": "1-6  6-3  6-2"
+        },
+        {
+          "date": "2018-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "316738",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2018-03-20T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "316738",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2019-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "319998",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "319998",
+          "score": "6-2  7-6(5)"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "Q",
+          "winner_id": "319998",
+          "score": "6-2  6-2"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "319998"
+    },
+    "316738-332285": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-05T00:00:00+00:00",
+          "tournament": "AUCKLAND",
+          "round": "S",
+          "winner_id": "316738",
+          "score": "7-6(5)  6-2"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "332285"
+    },
+    "316738-327793": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2023-04-17T00:00:00+00:00",
+          "tournament": "OEIRAS",
+          "round": "R32",
+          "winner_id": "327793",
+          "score": "2-6  7-6(3)  6-4"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "327793",
+          "score": "7-6(5)  3-6  7-6(4)"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "327793"
+    },
+    "316738-316959": {
+      "player1_wins": 2,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2015-08-23T00:00:00+00:00",
+          "tournament": "NEW HAVEN",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "7-6(4)  4-2"
+        },
+        {
+          "date": "2017-08-28T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "7-6(2)  1-6  6-4"
+        },
+        {
+          "date": "2019-01-14T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "6-2  1-6  6-1"
+        },
+        {
+          "date": "2019-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "316738",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2022-01-10T00:00:00+00:00",
+          "tournament": "ADELAIDE 250",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "3-6  6-3  6-4"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "316959"
+    },
+    "316738-330482": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-01-18T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "316738",
+          "score": "7-6(4)  6-3"
+        }
+      ],
+      "player1_id": "316738",
+      "player2_id": "330482"
+    },
+    "322191-319001": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2021-08-16T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "7-5  2-1"
+        },
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-3  4-6  7-5"
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "6-7(2)  6-2  6-3"
+        },
+        {
+          "date": "2025-10-20T00:00:00+00:00",
+          "tournament": "TOKYO",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "3-6  7-5  7-5"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "319001"
+    },
+    "322191-329668": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "6-7(5)  6-4  6-2"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "329668"
+    },
+    "322191-319007": {
+      "player1_wins": 2,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2015-06-15T00:00:00+00:00",
+          "tournament": "PREROV",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2016-02-08T00:00:00+00:00",
+          "tournament": "TRNAVA",
+          "round": "F",
+          "winner_id": "319007",
+          "score": "6-1  6-3"
+        },
+        {
+          "date": "2019-10-14T00:00:00+00:00",
+          "tournament": "MOSCOW",
+          "round": "Q",
+          "winner_id": "322191",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2021-04-19T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "4-6  6-2  6-3"
+        },
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "2-6  7-6(5)  10-6"
+        },
+        {
+          "date": "2025-01-27T00:00:00+00:00",
+          "tournament": "LINZ",
+          "round": "S",
+          "winner_id": "319007",
+          "score": "6-0  6-4"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "6-4  7-5"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "319007"
+    },
+    "322191-326482": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "322191",
+          "score": "6-3  6-7(0)  6-3"
+        },
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R64",
+          "winner_id": "322191",
+          "score": "2-6  6-2  6-4"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "326482"
+    },
+    "322191-319998": {
+      "player1_wins": 2,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2020-08-21T00:00:00+00:00",
+          "tournament": "CINCINNATI (NYC)",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": "6-7(5)  6-4  6-2"
+        },
+        {
+          "date": "2021-04-29T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R32",
+          "winner_id": "322191",
+          "score": "6-4  3-6  6-1"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": ""
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "322191",
+          "score": "6-3  7-6(5)"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "319998",
+          "score": "1-6  6-1  6-3"
+        },
+        {
+          "date": "2025-08-24T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "Q",
+          "winner_id": "319998",
+          "score": "6-4  7-6(3)"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "319998"
+    },
+    "322191-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "322191",
+      "player2_id": "332285"
+    },
+    "322191-327793": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "S",
+          "winner_id": "327793",
+          "score": "6-4  6-7(4)  6-3"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "327793"
+    },
+    "322191-316959": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2019-09-28T00:00:00+00:00",
+          "tournament": "BEIJING",
+          "round": "R64",
+          "winner_id": "316959",
+          "score": "6-4  7-6(5)"
+        },
+        {
+          "date": "2022-11-08T00:00:00+00:00",
+          "tournament": "BJK CUP FINALS - GROUP D",
+          "round": "",
+          "winner_id": "316959",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2024-06-24T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": ""
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "4-6  6-3  7-5"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "316959"
+    },
+    "322191-330482": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-10-13T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "R16",
+          "winner_id": "330482",
+          "score": "2-6  6-1  6-2"
+        }
+      ],
+      "player1_id": "322191",
+      "player2_id": "330482"
+    },
+    "319001-329668": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-10-20T00:00:00+00:00",
+          "tournament": "TOKYO",
+          "round": "F",
+          "winner_id": "319001",
+          "score": "6-2  6-3"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "329668"
+    },
+    "319001-319007": {
+      "player1_wins": 5,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2019-03-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-4  6-2"
+        },
+        {
+          "date": "2019-06-23T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "6-7(6)  6-2  6-3"
+        },
+        {
+          "date": "2021-04-19T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-1  7-5"
+        },
+        {
+          "date": "2021-06-14T00:00:00+00:00",
+          "tournament": "BERLIN",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "6-4  4-6  7-6(4)"
+        },
+        {
+          "date": "2022-04-04T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "S",
+          "winner_id": "319001",
+          "score": "6-4  6-3"
+        },
+        {
+          "date": "2023-03-21T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "7-6(8)  6-3"
+        },
+        {
+          "date": "2023-04-03T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2025-06-22T00:00:00+00:00",
+          "tournament": "BAD HOMBURG",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "6-1  6-2"
+        },
+        {
+          "date": "2025-06-30T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "7-6(4)  6-4"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "319007"
+    },
+    "319001-326482": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "319001",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2023-02-06T00:00:00+00:00",
+          "tournament": "ABU DHABI",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-4  7-5"
+        },
+        {
+          "date": "2023-02-19T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-7(7)  7-6(5)  6-4"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "326482"
+    },
+    "319001-319998": {
+      "player1_wins": 4,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2013-04-08T00:00:00+00:00",
+          "tournament": "PELHAM",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2019-03-06T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2019-05-04T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "Q",
+          "winner_id": "319001",
+          "score": "3-6  6-2  7-5"
+        },
+        {
+          "date": "2019-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "7-5  6-4"
+        },
+        {
+          "date": "2022-03-22T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "S",
+          "winner_id": "319998",
+          "score": "4-6  6-3  6-4"
+        },
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "7-6(3)"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "319998"
+    },
+    "319001-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "319001",
+      "player2_id": "332285"
+    },
+    "319001-327793": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2022-02-20T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R64",
+          "winner_id": "327793",
+          "score": "6-4  3-6  6-3"
+        },
+        {
+          "date": "2025-04-22T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R64",
+          "winner_id": "319001",
+          "score": "7-5  7-5"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "327793"
+    },
+    "319001-316959": {
+      "player1_wins": 2,
+      "player2_wins": 4,
+      "matches": [
+        {
+          "date": "2015-05-24T00:00:00+00:00",
+          "tournament": "FRENCH OPEN",
+          "round": "R64",
+          "winner_id": "316959",
+          "score": "6-0  6-3"
+        },
+        {
+          "date": "2015-06-21T00:00:00+00:00",
+          "tournament": "EASTBOURNE",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-2  6-2"
+        },
+        {
+          "date": "2021-03-01T00:00:00+00:00",
+          "tournament": "DOHA",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2022-04-04T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R16",
+          "winner_id": "319001",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "6-1  6-1"
+        },
+        {
+          "date": "2026-03-30T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "4-6  6-3  6-2"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "316959"
+    },
+    "319001-330482": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-03-05T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-4  6-4"
+        },
+        {
+          "date": "2026-03-17T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-3  6-3"
+        },
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "R32",
+          "winner_id": "319001",
+          "score": "6-2  7-6(6)"
+        }
+      ],
+      "player1_id": "319001",
+      "player2_id": "330482"
+    },
+    "329668-319007": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-07-27T00:00:00+00:00",
+          "tournament": "OLYMPICS",
+          "round": "R32",
+          "winner_id": "329668",
+          "score": "2-6  7-6(5)  10-6"
+        },
+        {
+          "date": "2025-08-18T00:00:00+00:00",
+          "tournament": "MONTERREY",
+          "round": "Q",
+          "winner_id": "319007",
+          "score": "7-6(5)  4-6  6-2"
+        },
+        {
+          "date": "2026-04-13T00:00:00+00:00",
+          "tournament": "STUTTGART",
+          "round": "R16",
+          "winner_id": "329668",
+          "score": "6-1  6-1"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "319007"
+    },
+    "329668-326482": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2026-04-21T00:00:00+00:00",
+          "tournament": "MADRID 1000",
+          "round": "Q",
+          "winner_id": "326482",
+          "score": "7-6(1)  6-0"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "326482"
+    },
+    "329668-319998": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-10-06T00:00:00+00:00",
+          "tournament": "WUHAN",
+          "round": "R32",
+          "winner_id": "329668",
+          "score": "7-6(2)  6-3"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "319998"
+    },
+    "329668-332285": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-08-07T00:00:00+00:00",
+          "tournament": "CINCINNATI",
+          "round": "R64",
+          "winner_id": "332285",
+          "score": "6-3  6-0"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "332285"
+    },
+    "329668-327793": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2025-01-12T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R128",
+          "winner_id": "327793",
+          "score": "5-7  6-3  6-4"
+        },
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "Q",
+          "winner_id": "327793",
+          "score": "7-6(4)  6-4"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "327793"
+    },
+    "329668-316959": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "329668",
+      "player2_id": "316959"
+    },
+    "329668-330482": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2025-02-16T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "329668",
+          "score": "7-6(8)  4-6  6-3"
+        }
+      ],
+      "player1_id": "329668",
+      "player2_id": "330482"
+    },
+    "319007-326482": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2021-05-10T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R64",
+          "winner_id": "319007",
+          "score": "6-3  6-1"
+        },
+        {
+          "date": "2022-09-12T00:00:00+00:00",
+          "tournament": "PORTOROZ",
+          "round": "R32",
+          "winner_id": "319007",
+          "score": "7-6(5)  5-7  7-5"
+        },
+        {
+          "date": "2022-09-12T00:00:00+00:00",
+          "tournament": "PORTOROZ",
+          "round": "Q",
+          "winner_id": "326482",
+          "score": "6-4  7-6(2)"
+        }
+      ],
+      "player1_id": "319007",
+      "player2_id": "326482"
+    },
+    "319007-319998": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "319007",
+      "player2_id": "319998"
+    },
+    "319007-332285": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "319007",
+          "score": "4-6  6-4  7-5"
+        }
+      ],
+      "player1_id": "319007",
+      "player2_id": "332285"
+    },
+    "319007-327793": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2021-03-01T00:00:00+00:00",
+          "tournament": "LYON",
+          "round": "R32",
+          "winner_id": "327793",
+          "score": "6-3  6-4"
+        },
+        {
+          "date": "2021-09-13T00:00:00+00:00",
+          "tournament": "LUXEMBOURG",
+          "round": "R16",
+          "winner_id": "327793",
+          "score": "6-4  3-6  7-6(1)"
+        }
+      ],
+      "player1_id": "319007",
+      "player2_id": "327793"
+    },
+    "319007-316959": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2018-01-15T00:00:00+00:00",
+          "tournament": "AUSTRALIAN OPEN",
+          "round": "R64",
+          "winner_id": "316959",
+          "score": "6-0  6-1"
+        }
+      ],
+      "player1_id": "319007",
+      "player2_id": "316959"
+    },
+    "319007-330482": {
+      "player1_wins": 2,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2025-03-31T00:00:00+00:00",
+          "tournament": "CHARLESTON",
+          "round": "R16",
+          "winner_id": "319007",
+          "score": "6-2  6-1"
+        },
+        {
+          "date": "2025-08-18T00:00:00+00:00",
+          "tournament": "MONTERREY",
+          "round": "F",
+          "winner_id": "330482",
+          "score": "6-3  4-6  6-4"
+        },
+        {
+          "date": "2025-10-13T00:00:00+00:00",
+          "tournament": "NINGBO",
+          "round": "S",
+          "winner_id": "319007",
+          "score": "6-3  6-4"
+        }
+      ],
+      "player1_id": "319007",
+      "player2_id": "330482"
+    },
+    "326482-319998": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2020-08-31T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "319998",
+          "score": "6-3  6-7(4)  6-2"
+        },
+        {
+          "date": "2024-05-07T00:00:00+00:00",
+          "tournament": "ROME",
+          "round": "R64",
+          "winner_id": "319998",
+          "score": "6-3  6-2"
+        }
+      ],
+      "player1_id": "326482",
+      "player2_id": "319998"
+    },
+    "326482-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "326482",
+      "player2_id": "332285"
+    },
+    "326482-327793": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2022-04-28T00:00:00+00:00",
+          "tournament": "MADRID",
+          "round": "R64",
+          "winner_id": "326482",
+          "score": "6-3  6-2"
+        },
+        {
+          "date": "2022-12-11T00:00:00+00:00",
+          "tournament": "LIMOGES 125",
+          "round": "R16",
+          "winner_id": "327793",
+          "score": "7-6(6)  6-4"
+        }
+      ],
+      "player1_id": "326482",
+      "player2_id": "327793"
+    },
+    "326482-316959": {
+      "player1_wins": 0,
+      "player2_wins": 2,
+      "matches": [
+        {
+          "date": "2022-05-22T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "7-6(5)  2-6  7-5"
+        },
+        {
+          "date": "2023-07-03T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-4  6-1"
+        },
+        {
+          "date": "2024-07-01T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-4  6-3"
+        }
+      ],
+      "player1_id": "326482",
+      "player2_id": "316959"
+    },
+    "326482-330482": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-09-16T00:00:00+00:00",
+          "tournament": "SEOUL",
+          "round": "Q",
+          "winner_id": "330482",
+          "score": "7-6(7)  6-3"
+        }
+      ],
+      "player1_id": "326482",
+      "player2_id": "330482"
+    },
+    "319998-332285": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "319998",
+      "player2_id": "332285"
+    },
+    "319998-327793": {
+      "player1_wins": 1,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-12-30T00:00:00+00:00",
+          "tournament": "AUCKLAND",
+          "round": "F",
+          "winner_id": "327793",
+          "score": "4-6"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "S",
+          "winner_id": "319998",
+          "score": "6-2  7-6(7)"
+        }
+      ],
+      "player1_id": "319998",
+      "player2_id": "327793"
+    },
+    "319998-316959": {
+      "player1_wins": 1,
+      "player2_wins": 3,
+      "matches": [
+        {
+          "date": "2016-08-29T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "7-5  4-6  7-6(3)"
+        },
+        {
+          "date": "2017-03-08T00:00:00+00:00",
+          "tournament": "INDIAN WELLS",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-1  6-4"
+        },
+        {
+          "date": "2018-05-27T00:00:00+00:00",
+          "tournament": "ROLAND GARROS",
+          "round": "R32",
+          "winner_id": "316959",
+          "score": "6-1  7-6(7)"
+        },
+        {
+          "date": "2018-08-27T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "S",
+          "winner_id": "319998",
+          "score": "6-2  6-4"
+        }
+      ],
+      "player1_id": "319998",
+      "player2_id": "316959"
+    },
+    "319998-330482": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "319998",
+      "player2_id": "330482"
+    },
+    "332285-327793": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "332285",
+      "player2_id": "327793"
+    },
+    "332285-316959": {
+      "player1_wins": 0,
+      "player2_wins": 0,
+      "matches": [],
+      "player1_id": "332285",
+      "player2_id": "316959"
+    },
+    "332285-330482": {
+      "player1_wins": 1,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2026-02-15T00:00:00+00:00",
+          "tournament": "DUBAI",
+          "round": "R32",
+          "winner_id": "332285",
+          "score": "6-4  1-6  6-0"
+        }
+      ],
+      "player1_id": "332285",
+      "player2_id": "330482"
+    },
+    "327793-316959": {
+      "player1_wins": 2,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-12-30T00:00:00+00:00",
+          "tournament": "AUCKLAND",
+          "round": "Q",
+          "winner_id": "327793",
+          "score": "6-4  7-6(7)"
+        },
+        {
+          "date": "2025-07-27T00:00:00+00:00",
+          "tournament": "MONTREAL",
+          "round": "Q",
+          "winner_id": "327793",
+          "score": "6-1  6-4"
+        }
+      ],
+      "player1_id": "327793",
+      "player2_id": "316959"
+    },
+    "327793-330482": {
+      "player1_wins": 0,
+      "player2_wins": 1,
+      "matches": [
+        {
+          "date": "2024-07-01T00:00:00+00:00",
+          "tournament": "WIMBLEDON",
+          "round": "R64",
+          "winner_id": "330482",
+          "score": "4-6  7-6(6)  6-0"
+        },
+        {
+          "date": "2024-08-26T00:00:00+00:00",
+          "tournament": "US OPEN",
+          "round": "R64",
+          "winner_id": "330482",
+          "score": "6-4  6-4"
+        }
+      ],
+      "player1_id": "327793",
+      "player2_id": "330482"
+    },
+    "316959-330482": {
+      "player1_wins": 3,
+      "player2_wins": 0,
+      "matches": [
+        {
+          "date": "2024-03-19T00:00:00+00:00",
+          "tournament": "MIAMI",
+          "round": "R64",
+          "winner_id": "316959",
+          "score": "6-2  6-4"
+        },
+        {
+          "date": "2025-06-09T00:00:00+00:00",
+          "tournament": "QUEENS",
+          "round": "Q",
+          "winner_id": "316959",
+          "score": "2-6  6-3  6-4"
+        },
+        {
+          "date": "2026-01-04T00:00:00+00:00",
+          "tournament": "BRISBANE",
+          "round": "R16",
+          "winner_id": "316959",
+          "score": "6-7(5)  7-6(5)  7-6(4)"
+        }
+      ],
+      "player1_id": "316959",
+      "player2_id": "330482"
+    }
+  }
+}

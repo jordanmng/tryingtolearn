@@ -236,6 +236,82 @@ svg#graph:active { cursor: grabbing; }
   background: rgba(255,255,255,0.08); padding: 2px 7px;
   border-radius: 5px; font-family: monospace; font-size: 13px; color: #c4b5fd;
 }
+
+/* ── Cycles panel ──────────────────────────────────────────────────────────── */
+#cycles-panel {
+  position: fixed;
+  top: 66px;
+  left: 14px;
+  width: 320px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background: rgba(8, 6, 24, 0.92);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(160, 100, 255, 0.2);
+  border-radius: 16px;
+  padding: 16px;
+  z-index: 100;
+  display: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.55);
+}
+#cycles-panel::-webkit-scrollbar { width: 3px; }
+#cycles-panel::-webkit-scrollbar-track { background: transparent; }
+#cycles-panel::-webkit-scrollbar-thumb { background: rgba(160,100,255,0.3); border-radius: 2px; }
+
+.cy-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.cy-subtitle {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 14px;
+}
+.cy-count {
+  color: #c4b5fd;
+  font-weight: 700;
+}
+.cy-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.cy-card:hover {
+  background: rgba(100, 40, 200, 0.15);
+  border-color: rgba(160, 100, 255, 0.3);
+}
+.cy-card.cy-active {
+  background: rgba(100, 40, 200, 0.22);
+  border-color: rgba(180, 120, 255, 0.5);
+}
+.cy-chain {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.cy-player {
+  font-weight: 600;
+  color: rgba(255,255,255,0.88);
+}
+.cy-arrow {
+  color: #4ade80;
+  font-size: 11px;
+  font-weight: 700;
+}
+.cy-score {
+  font-size: 10px;
+  color: rgba(255,255,255,0.4);
+}
 </style>
 </head>
 <body>
@@ -261,11 +337,15 @@ svg#graph:active { cursor: grabbing; }
 <!-- ── Detail panel ───────────────────────────────────────────────────────── -->
 <div id="detail-panel"></div>
 
+<!-- ── Cycles panel ──────────────────────────────────────────────────────── -->
+<div id="cycles-panel"></div>
+
 <!-- ── Controls ───────────────────────────────────────────────────────────── -->
 <div id="controls">
   <button class="btn" id="btn-reset">Reset View</button>
   <button class="btn" id="btn-labels">Toggle Labels</button>
   <button class="btn" id="btn-top5">Highlight Top 5</button>
+  <button class="btn" id="btn-cycles">Cycles</button>
 </div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -416,30 +496,41 @@ function initGraph(raw) {
     }
   });
 
-  // ── Defs: arrowhead markers (one per region) ─────────────────────────────────
+  // ── Defs: arrowhead markers (one per link, sized by margin) ──────────────────
   const defs = svg.append('defs');
-  Object.entries(REGION_COLORS).forEach(([region, color]) => {
-    const id = 'arr-' + region.replace(/[^a-zA-Z0-9]/g, '_');
+
+  function arrowSize(margin) {
+    if (margin === 0) return 0;
+    return Math.min(14, 4 + margin * 1.2);
+  }
+
+  // ── Create per-link arrowhead markers ─────────────────────────────────────────
+  links.forEach(l => {
+    if (l.isEven) return;
+    const sz = arrowSize(l.margin);
+    const id = 'arr-' + l.id.replace(/[^a-zA-Z0-9]/g, '_');
+    l._markerId = id;
+    l._arrowSize = sz;
     defs.append('marker')
       .attr('id', id)
       .attr('viewBox', '0 0 10 10')
       .attr('refX', 9)
       .attr('refY', 5)
-      .attr('markerWidth',  7)
-      .attr('markerHeight', 7)
+      .attr('markerWidth',  sz)
+      .attr('markerHeight', sz)
       .attr('orient', 'auto')
       .append('path')
         .attr('d',    'M 0 1.5 L 8.5 5 L 0 8.5 Z')
-        .attr('fill', color)
+        .attr('fill', l.domNode.color)
         .attr('fill-opacity', 0.88);
   });
 
   // ── Force simulation ─────────────────────────────────────────────────────────
   const simulation = d3.forceSimulation(nodes)
-    .force('link',      d3.forceLink(links).id(d => d.id).distance(240).strength(0.35))
-    .force('charge',    d3.forceManyBody().strength(-2400).distanceMax(800))
-    .force('center',    d3.forceCenter(W / 2, H / 2).strength(0.08))
-    .force('collision', d3.forceCollide().radius(d => d.radius + 28).strength(0.85))
+    .force('link',      d3.forceLink(links).id(d => d.id).distance(420).strength(0.2))
+    .force('charge',    d3.forceManyBody().strength(-4500).distanceMax(1400))
+    .force('center',    d3.forceCenter(W / 2, H / 2).strength(0.05))
+    .force('collision', d3.forceCollide().radius(d => d.radius + 50).strength(0.85))
     .alphaDecay(0.018)
     .velocityDecay(0.38);
 
@@ -453,7 +544,7 @@ function initGraph(raw) {
     .attr('stroke-width',   d => d.sw_px)
     .attr('stroke-opacity', d => d.isEven ? 0.28 : 0.52)
     .attr('marker-end', d =>
-      d.isEven ? null : `url(#arr-${d.domNode.region.replace(/[^a-zA-Z0-9]/g, '_')})`
+      d.isEven ? null : `url(#${d._markerId})`
     )
     .on('mouseenter', onLinkEnter)
     .on('mousemove',  onLinkMove)
@@ -551,7 +642,7 @@ function initGraph(raw) {
 
     const sr = s.radius || 15;
     const tr = t.radius || 15;
-    const ap = d.isEven ? tr : tr + 10;   // arrow pad
+    const ap = d.isEven ? tr : tr + (d._arrowSize || 7);   // arrow pad
 
     return (
       `M${sx + Math.cos(ts) * sr},${sy + Math.sin(ts) * sr}` +
@@ -782,6 +873,138 @@ function initGraph(raw) {
     if (_top5Mode) {
       detailPanel.style.display = 'none';
       hideTooltip();
+    }
+  });
+
+  // ── Cycles ──────────────────────────────────────────────────────────────────
+  const cyclesPanel = document.getElementById('cycles-panel');
+  let _cyclesMode = false;
+  let _activeCycle = null;
+
+  // Build dominance map: dom[a][b] = { wins, losses } means a leads b
+  const dom = {};
+  for (const [, h2h] of Object.entries(raw.h2h)) {
+    const id1 = String(h2h.player1_id), id2 = String(h2h.player2_id);
+    const w1 = h2h.player1_wins || 0, w2 = h2h.player2_wins || 0;
+    if (w1 + w2 === 0 || w1 === w2) continue;
+    if (w1 > w2) {
+      if (!dom[id1]) dom[id1] = {};
+      dom[id1][id2] = { w: w1, l: w2 };
+    } else {
+      if (!dom[id2]) dom[id2] = {};
+      dom[id2][id1] = { w: w2, l: w1 };
+    }
+  }
+
+  // Find all 3-cycles: A beats B, B beats C, C beats A
+  const cycles = [];
+  const ids = nodes.map(n => n.id);
+  for (let i = 0; i < ids.length; i++) {
+    for (let j = i + 1; j < ids.length; j++) {
+      for (let k = j + 1; k < ids.length; k++) {
+        const tri = [ids[i], ids[j], ids[k]];
+        // Check all 2 possible cycle directions for this triple
+        const perms = [
+          [tri[0], tri[1], tri[2]],
+          [tri[0], tri[2], tri[1]],
+        ];
+        for (const [a, b, c] of perms) {
+          if (dom[a]?.[b] && dom[b]?.[c] && dom[c]?.[a]) {
+            cycles.push({
+              players: [a, b, c],
+              edges: [
+                { from: a, to: b, ...dom[a][b] },
+                { from: b, to: c, ...dom[b][c] },
+                { from: c, to: a, ...dom[c][a] },
+              ],
+            });
+            break; // only one direction per triple can form a cycle
+          }
+        }
+      }
+    }
+  }
+
+  // Sort by combined margin (tightest cycles first)
+  cycles.sort((a, b) => {
+    const marginA = a.edges.reduce((s, e) => s + (e.w - e.l), 0);
+    const marginB = b.edges.reduce((s, e) => s + (e.w - e.l), 0);
+    return marginA - marginB;
+  });
+
+  function renderCyclesPanel() {
+    const cards = cycles.map((cy, idx) => {
+      const parts = cy.edges.map(e => {
+        const p = playerById[e.from];
+        const lastName = p.name.trim().split(/\s+/).pop();
+        return `<span class="cy-player" style="color:${p.color}">${lastName}</span>` +
+               `<span class="cy-arrow">&rarr;</span>` +
+               `<span class="cy-score">${e.w}-${e.l}</span>`;
+      });
+      // Close the loop visually
+      const lastPlayer = playerById[cy.edges[0].from];
+      const closeName = lastPlayer.name.trim().split(/\s+/).pop();
+      parts.push(`<span class="cy-player" style="color:${lastPlayer.color}">${closeName}</span>`);
+
+      return `<div class="cy-card" data-idx="${idx}">
+        <div class="cy-chain">${parts.join(' ')}</div>
+      </div>`;
+    }).join('');
+
+    cyclesPanel.innerHTML = `
+      <div class="cy-title">Cyclical H2H</div>
+      <div class="cy-subtitle"><span class="cy-count">${cycles.length}</span> rock-paper-scissors triangles found</div>
+      ${cards}
+    `;
+
+    cyclesPanel.querySelectorAll('.cy-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const idx = parseInt(card.dataset.idx);
+        if (_activeCycle === idx) {
+          _activeCycle = null;
+          card.classList.remove('cy-active');
+          nodeGrps.attr('opacity', 1);
+          linkSels.attr('opacity', 1);
+        } else {
+          _activeCycle = idx;
+          cyclesPanel.querySelectorAll('.cy-card').forEach(c => c.classList.remove('cy-active'));
+          card.classList.add('cy-active');
+          highlightCycle(cycles[idx]);
+        }
+      });
+    });
+  }
+
+  function highlightCycle(cy) {
+    const cyIds = new Set(cy.players);
+    const cyEdges = new Set();
+    cy.edges.forEach(e => {
+      links.forEach(l => {
+        const sId = l.source.id || l.source;
+        const tId = l.target.id || l.target;
+        if ((sId === e.from && tId === e.to) || (sId === e.to && tId === e.from)) {
+          cyEdges.add(l.id);
+        }
+      });
+    });
+
+    nodeGrps.attr('opacity', d => cyIds.has(d.id) ? 1 : 0.08);
+    linkSels.attr('opacity', d => cyEdges.has(d.id) ? 1 : 0.03);
+  }
+
+  renderCyclesPanel();
+
+  document.getElementById('btn-cycles').addEventListener('click', function() {
+    _cyclesMode = !_cyclesMode;
+    this.classList.toggle('active', _cyclesMode);
+    cyclesPanel.style.display = _cyclesMode ? 'block' : 'none';
+    if (!_cyclesMode) {
+      _activeCycle = null;
+      _locked = null;
+      _hovered = null;
+      nodeGrps.attr('opacity', 1);
+      linkSels.attr('opacity', 1);
+      detailPanel.style.display = 'none';
     }
   });
 
